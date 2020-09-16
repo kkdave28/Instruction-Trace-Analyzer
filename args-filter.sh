@@ -1,0 +1,1 @@
+cat "$1" | grep -v '^[0-9+ x*]' | sed -r 's/.*:\t/Instruction: /' | sed '/^Instruction:/ s/$/\n/' | sed '/^gs/ s/$/\n/'> "$2"

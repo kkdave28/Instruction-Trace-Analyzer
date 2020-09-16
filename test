@@ -1,0 +1,493 @@
+Instruction 1: endbr64
+NO ARGS
+---------------------------------------
+Instruction 2: push
+Operand #0: %rbp
+---------------------------------------
+Instruction 3: mov
+Operand #0: %rsp
+Operand #1: %rbp
+---------------------------------------
+Instruction 4: sub
+Operand #0: $0x20
+Operand #1: %rsp
+---------------------------------------
+Instruction 5: mov
+Operand #0: %fs:0x28
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 6: mov
+Operand #0: %rax
+Operand #1: -0x8(%rbp) Effective Address = 0x7fffffffddb8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 7: xor
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 8: movl
+Operand #0: $0x0
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 9: jmp
+Operand #0: 0x555555555182
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 10: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 11: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 12: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 13: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 14: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 15: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 16: cltq
+NO ARGS
+---------------------------------------
+Instruction 17: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddae
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 0: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 1: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 2: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 3: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 4: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 5: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 6: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 7: cltq
+NO ARGS
+---------------------------------------
+Instruction 8: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddaf
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 1: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 2: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 3: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 4: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 5: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 6: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 7: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 8: cltq
+NO ARGS
+---------------------------------------
+Instruction 9: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddb0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 2: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 3: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 4: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 5: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 6: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 7: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 8: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 9: cltq
+NO ARGS
+---------------------------------------
+Instruction 10: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddb1
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 3: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 4: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 5: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 6: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 7: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 8: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 9: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 10: cltq
+NO ARGS
+---------------------------------------
+Instruction 11: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddb2
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 4: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 5: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 6: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 7: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 8: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 9: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 10: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 11: cltq
+NO ARGS
+---------------------------------------
+Instruction 12: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddb3
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 5: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 6: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 7: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 8: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 9: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 10: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 11: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 12: cltq
+NO ARGS
+---------------------------------------
+Instruction 13: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddb4
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 6: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 7: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 8: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 9: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 10: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 11: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 12: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 13: cltq
+NO ARGS
+---------------------------------------
+Instruction 14: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddb5
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 7: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 8: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 9: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 10: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 11: add
+Operand #0: $0x61
+Operand #1: %eax
+---------------------------------------
+Instruction 12: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 13: mov
+Operand #0: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 14: cltq
+NO ARGS
+---------------------------------------
+Instruction 15: mov
+Operand #0: %dl
+Operand #1: -0x12(%rbp,%rax,1) Effective Address = 0x7fffffffddb6
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 8: addl
+Operand #0: $0x1
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 9: cmpl
+Operand #0: $0x8
+Operand #1: -0x18(%rbp) Effective Address = 0x7fffffffdda8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 10: jle
+Operand #0: 0x55555555516d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 11: mov
+Operand #0: $0x0
+Operand #1: %eax
+---------------------------------------
+Instruction 12: mov
+Operand #0: -0x8(%rbp) Effective Address = 0x7fffffffddb8
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 13: xor
+Operand #0: %fs:0x28
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 14: je
+Operand #0: 0x5555555551a1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 15: leaveq
+NO ARGS
+---------------------------------------
+Instruction 16: retq
+NO ARGS
+---------------------------------------

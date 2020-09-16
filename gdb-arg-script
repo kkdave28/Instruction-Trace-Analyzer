@@ -1,0 +1,14 @@
+b main
+run
+set variable $loop = *main +85
+set logging on
+set height 0
+while $pc != $loop
+x/i $pc
+stepi
+i r
+end
+x/i $pc
+stepi
+i r
+quit

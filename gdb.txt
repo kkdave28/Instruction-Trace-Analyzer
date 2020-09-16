@@ -1,0 +1,1852 @@
+=> 0x555555555149 <main>:	endbr64 
+0x000055555555514d	3	{
+rax            0x555555555149      93824992235849
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x0                 0x0
+rsp            0x7fffffffddc8      0x7fffffffddc8
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555514d      0x55555555514d <main+4>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555514d <main+4>:	push   %rbp
+0x000055555555514e	3	{
+rax            0x555555555149      93824992235849
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x0                 0x0
+rsp            0x7fffffffddc0      0x7fffffffddc0
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555514e      0x55555555514e <main+5>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555514e <main+5>:	mov    %rsp,%rbp
+0x0000555555555151	3	{
+rax            0x555555555149      93824992235849
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffddc0      0x7fffffffddc0
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555151      0x555555555151 <main+8>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555151 <main+8>:	sub    $0x40,%rsp
+3	{
+rax            0x555555555149      93824992235849
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555155      0x555555555155 <main+12>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555155 <main+12>:	mov    %fs:0x28,%rax
+0x000055555555515e	3	{
+rax            0x3de7c431e698a900  4460749674534971648
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555515e      0x55555555515e <main+21>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555515e <main+21>:	mov    %rax,-0x8(%rbp)
+0x0000555555555162	3	{
+rax            0x3de7c431e698a900  4460749674534971648
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555162      0x555555555162 <main+25>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555162 <main+25>:	xor    %eax,%eax
+5	    for (int i=0; i< 9; i++)
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555164      0x555555555164 <main+27>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555164 <main+27>:	movl   $0x0,-0x34(%rbp)
+5	    for (int i=0; i< 9; i++)
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516b      0x55555555516b <main+34>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516b <main+34>:	jmp    0x55555555517e <main+53>
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x1                 1
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x1                 1
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x1                 1
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x1                 1
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x1                 1
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x1                 1
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x2                 2
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x2                 2
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x2                 2
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x2                 2
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x2                 2
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x2                 2
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x3                 3
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x3                 3
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x3                 3
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x3                 3
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x3                 3
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x3                 3
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x4                 4
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x4                 4
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x4                 4
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x4                 4
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x4                 4
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x4                 4
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x5                 5
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x5                 5
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x5                 5
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x5                 5
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x5                 5
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x5                 5
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x6                 6
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x6                 6
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x6                 6
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x293               [ CF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x6                 6
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x6                 6
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x6                 6
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x7                 7
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x7                 7
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x7                 7
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x297               [ CF PF AF SF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x7                 7
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x7                 7
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+6	        x[i] = 0x98;
+rax            0x7                 7
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516d      0x55555555516d <main+36>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516d <main+36>:	mov    -0x34(%rbp),%eax
+0x0000555555555170	6	        x[i] = 0x98;
+rax            0x8                 8
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555170      0x555555555170 <main+39>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555170 <main+39>:	cltq   
+0x0000555555555172	6	        x[i] = 0x98;
+rax            0x8                 8
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555172      0x555555555172 <main+41>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555172 <main+41>:	movl   $0x98,-0x30(%rbp,%rax,4)
+5	    for (int i=0; i< 9; i++)
+rax            0x8                 8
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517a      0x55555555517a <main+49>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517a <main+49>:	addl   $0x1,-0x34(%rbp)
+0x000055555555517e	5	    for (int i=0; i< 9; i++)
+rax            0x8                 8
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517e      0x55555555517e <main+53>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517e <main+53>:	cmpl   $0x8,-0x34(%rbp)
+0x0000555555555182	5	    for (int i=0; i< 9; i++)
+rax            0x8                 8
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555182      0x555555555182 <main+57>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555182 <main+57>:	jle    0x55555555516d <main+36>
+7	    return 0;
+rax            0x8                 8
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555184      0x555555555184 <main+59>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555184 <main+59>:	mov    $0x0,%eax
+8	}
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x7fffffffdec8      140737488346824
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555189      0x555555555189 <main+64>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555189 <main+64>:	mov    -0x8(%rbp),%rdx
+0x000055555555518d	8	}
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x3de7c431e698a900  4460749674534971648
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555518d      0x55555555518d <main+68>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555518d <main+68>:	xor    %fs:0x28,%rdx
+0x0000555555555196	8	}
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x0                 0
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555196      0x555555555196 <main+77>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555196 <main+77>:	je     0x55555555519d <main+84>
+0x000055555555519d	8	}
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x0                 0
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x7fffffffddc0      0x7fffffffddc0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555519d      0x55555555519d <main+84>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555519d <main+84>:	leaveq 
+0x000055555555519e	8	}
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x0                 0
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x0                 0x0
+rsp            0x7fffffffddc8      0x7fffffffddc8
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555519e      0x55555555519e <main+85>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555519e <main+85>:	retq   
+__libc_start_main (main=0x555555555149 <main>, argc=1, argv=0x7fffffffdeb8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffdea8) at ../csu/libc-start.c:342
+342	../csu/libc-start.c: No such file or directory.
+rax            0x0                 0
+rbx            0x5555555551a0      93824992235936
+rcx            0x5555555551a0      93824992235936
+rdx            0x0                 0
+rsi            0x7fffffffdeb8      140737488346808
+rdi            0x1                 1
+rbp            0x0                 0x0
+rsp            0x7fffffffddd0      0x7fffffffddd0
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffdeb0      140737488346800
+r14            0x0                 0
+r15            0x0                 0
+rip            0x7ffff7de20b3      0x7ffff7de20b3 <__libc_start_main+243>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+A debugging session is active.
+
+	Inferior 1 [process 6760] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
