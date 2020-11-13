@@ -1,0 +1,2520 @@
+Instruction 1: endbr64
+NO ARGS
+---------------------------------------
+Instruction 2: push
+Operands: %rbp
+---------------------------------------
+Instruction 3: mov
+Operands: %rsp, %rbp
+---------------------------------------
+Instruction 4: sub
+Operands: $0x20, %rsp
+---------------------------------------
+Instruction 5: mov
+Operands: %edi, -0x14(%rbp)  ---> Effective Address = 0x7fffffffddec
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 6: mov
+Operands: %rsi, -0x20(%rbp)  ---> Effective Address = 0x7fffffffdde0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 7: mov
+Operands: %fs:0x28, %rax
+---------------------------------------
+Instruction 8: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddf8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 9: xor
+Operands: %eax, %eax
+---------------------------------------
+Instruction 10: mov
+Operands: -0x20(%rbp),   ---> Effective Address = 0x7fffffffdde0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 11: add
+Operands: $0x8, %rax
+---------------------------------------
+Instruction 12: mov
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe261%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 13: lea
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddf0%rdx
+---------------------------------------
+Instruction 14: mov
+Operands: %rdx, %rsi
+---------------------------------------
+Instruction 15: mov
+Operands: %rax, %rdi
+---------------------------------------
+Instruction 16: callq
+Operands: 0x555555555149  ---> Effective Address = 0x555555555149
+---------------------------------------
+Instruction 17: endbr64
+NO ARGS
+---------------------------------------
+Instruction 18: push
+Operands: %rbp
+---------------------------------------
+Instruction 19: mov
+Operands: %rsp, %rbp
+---------------------------------------
+Instruction 20: mov
+Operands: %rdi, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 21: mov
+Operands: %rsi, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 22: jmp
+Operands: 0x555555555180  ---> Effective Address = 0x555555555180
+---------------------------------------
+Instruction 23: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 24: movzbl
+Operands: (%rax),   ---> Effective Address = 0x31%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 25: test
+Operands: %al, %al
+---------------------------------------
+Instruction 26: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 27: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 28: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe261%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 29: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 30: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 31: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 32: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 33: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 34: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 35: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 36: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 37: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 38: movzbl
+Operands: (%rax),   ---> Effective Address = 0x32%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 39: test
+Operands: %al, %al
+---------------------------------------
+Instruction 40: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 41: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 42: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe262%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 43: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 44: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 45: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 46: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 47: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 48: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 49: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 50: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 51: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 52: movzbl
+Operands: (%rax),   ---> Effective Address = 0x33%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 53: test
+Operands: %al, %al
+---------------------------------------
+Instruction 54: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 55: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 56: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe263%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 57: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 58: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 59: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 60: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 61: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 62: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 63: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 64: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 65: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 66: movzbl
+Operands: (%rax),   ---> Effective Address = 0x34%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 67: test
+Operands: %al, %al
+---------------------------------------
+Instruction 68: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 69: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 70: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe264%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 71: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 72: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 73: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 74: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 75: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 76: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 77: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 78: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 79: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 80: movzbl
+Operands: (%rax),   ---> Effective Address = 0x35%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 81: test
+Operands: %al, %al
+---------------------------------------
+Instruction 82: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 83: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 84: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe265%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 85: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 86: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 87: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 88: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 89: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 90: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 91: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 92: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 93: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 94: movzbl
+Operands: (%rax),   ---> Effective Address = 0x36%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 95: test
+Operands: %al, %al
+---------------------------------------
+Instruction 96: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 97: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 98: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe266%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 99: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 100: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 101: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 102: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 103: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 104: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 105: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 106: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 107: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 108: movzbl
+Operands: (%rax),   ---> Effective Address = 0x37%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 109: test
+Operands: %al, %al
+---------------------------------------
+Instruction 110: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 111: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 112: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe267%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 113: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 114: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 115: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 116: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 117: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 118: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 119: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 120: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 121: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 122: movzbl
+Operands: (%rax),   ---> Effective Address = 0x38%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 123: test
+Operands: %al, %al
+---------------------------------------
+Instruction 124: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 125: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 126: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe268%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 127: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 128: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 129: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 130: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 131: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 132: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 133: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 134: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 135: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 136: movzbl
+Operands: (%rax),   ---> Effective Address = 0x39%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 137: test
+Operands: %al, %al
+---------------------------------------
+Instruction 138: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 139: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 140: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7fffffffe269%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 141: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 142: mov
+Operands: %dl, (%rax)
+---------------------------------------
+Instruction 143: mov
+Operands: -0x10(%rbp),   ---> Effective Address = 0x7fffffffddc0%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 144: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 145: mov
+Operands: %rax, -0x10(%rbp)  ---> Effective Address = 0x7fffffffddc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 146: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 147: add
+Operands: $0x1, %rax
+---------------------------------------
+Instruction 148: mov
+Operands: %rax, -0x8(%rbp)  ---> Effective Address = 0x7fffffffddc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 149: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddc8%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 150: movzbl
+Operands: (%rax),   ---> Effective Address = 0x0%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 151: test
+Operands: %al, %al
+---------------------------------------
+Instruction 152: jne
+Operands: 0x55555555515b  ---> Effective Address = 0x55555555515b
+---------------------------------------
+Instruction 153: nop
+NO ARGS
+---------------------------------------
+Instruction 154: nop
+NO ARGS
+---------------------------------------
+Instruction 155: pop
+Operands: %rbp
+---------------------------------------
+Instruction 156: retq
+NO ARGS
+---------------------------------------
+Instruction 157: mov
+Operands: $0x0, %eax
+---------------------------------------
+Instruction 158: mov
+Operands: -0x8(%rbp),   ---> Effective Address = 0x7fffffffddf8%rcx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 159: xor
+Operands: %fs:0x28, %rcx
+---------------------------------------
+Instruction 160: je
+Operands: 0x55555555521c  ---> Effective Address = 0x55555555521c
+---------------------------------------
+Instruction 161: callq
+Operands: 0x555555555050  ---> Effective Address = 0x555555555050
+---------------------------------------
+Instruction 162: endbr64
+NO ARGS
+---------------------------------------
+Instruction 163: bnd
+Operands: jmpq
+---------------------------------------
+Instruction 164: endbr64
+NO ARGS
+---------------------------------------
+Instruction 165: push
+Operands: %rax
+---------------------------------------
+Instruction 166: pop
+Operands: %rax
+---------------------------------------
+Instruction 167: lea
+Operands: 0x87557(%rip),   ---> Effective Address = 0x7ffff7f75064%rdi
+---------------------------------------
+Instruction 168: sub
+Operands: $0x8, %rsp
+---------------------------------------
+Instruction 169: callq
+Operands: 0x7ffff7eedb20  ---> Effective Address = 0x7ffff7eedb20
+---------------------------------------
+Instruction 170: endbr64
+NO ARGS
+---------------------------------------
+Instruction 171: push
+Operands: %rbp
+---------------------------------------
+Instruction 172: lea
+Operands: 0x87550(%rip),   ---> Effective Address = 0x7ffff7f7507c%rbp
+---------------------------------------
+Instruction 173: push
+Operands: %rbx
+---------------------------------------
+Instruction 174: mov
+Operands: %rdi, %rbx
+---------------------------------------
+Instruction 175: sub
+Operands: $0x8, %rsp
+---------------------------------------
+Instruction 176: nopl
+Operands: 0x0(%rax)  ---> Effective Address = 0x0
+---------------------------------------
+Instruction 177: mov
+Operands: %rbx, %rdx
+---------------------------------------
+Instruction 178: mov
+Operands: %rbp, %rsi
+---------------------------------------
+Instruction 179: mov
+Operands: $0x1, %edi
+---------------------------------------
+Instruction 180: xor
+Operands: %eax, %eax
+---------------------------------------
+Instruction 181: callq
+Operands: 0x7ffff7e4b150  ---> Effective Address = 0x7ffff7e4b150
+---------------------------------------
+Instruction 182: endbr64
+NO ARGS
+---------------------------------------
+Instruction 183: push
+Operands: %rbp
+---------------------------------------
+Instruction 184: and
+Operands: $0x1, %edi
+---------------------------------------
+Instruction 185: mov
+Operands: %rsp, %rbp
+---------------------------------------
+Instruction 186: push
+Operands: %r15
+---------------------------------------
+Instruction 187: mov
+Operands: %edi, %r15d
+---------------------------------------
+Instruction 188: push
+Operands: %r14
+---------------------------------------
+Instruction 189: xor
+Operands: %r14d, %r14d
+---------------------------------------
+Instruction 190: push
+Operands: %r13
+---------------------------------------
+Instruction 191: push
+Operands: %r12
+---------------------------------------
+Instruction 192: xor
+Operands: %r12d, %r12d
+---------------------------------------
+Instruction 193: push
+Operands: %rbx
+---------------------------------------
+Instruction 194: mov
+Operands: %rsi, %rbx
+---------------------------------------
+Instruction 195: sub
+Operands: $0x68, %rsp
+---------------------------------------
+Instruction 196: mov
+Operands: %rdx, -0x50(%rbp)  ---> Effective Address = 0x7fffffffdd50
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 197: mov
+Operands: %rcx, -0x48(%rbp)  ---> Effective Address = 0x7fffffffdd58
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 198: mov
+Operands: %r8, -0x40(%rbp)  ---> Effective Address = 0x7fffffffdd60
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 199: mov
+Operands: %r9, -0x38(%rbp)  ---> Effective Address = 0x7fffffffdd68
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 200: movzbl
+Operands: (%rsi),   ---> Effective Address = 0x7ffff7f7507c%r13d
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 201: mov
+Operands: %fs:0x28, %rax
+---------------------------------------
+Instruction 202: mov
+Operands: %rax, -0x68(%rbp)  ---> Effective Address = 0x7fffffffdd38
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 203: xor
+Operands: %eax, %eax
+---------------------------------------
+Instruction 204: lea
+Operands: 0x10(%rbp),   ---> Effective Address = 0x7fffffffddb0%rax
+---------------------------------------
+Instruction 205: movl
+Operands: $0x10, -0x80(%rbp)  ---> Effective Address = 0x7fffffffdd20
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 206: mov
+Operands: %rax, -0x78(%rbp)  ---> Effective Address = 0x7fffffffdd28
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 207: lea
+Operands: -0x60(%rbp),   ---> Effective Address = 0x7fffffffdd40%rax
+---------------------------------------
+Instruction 208: mov
+Operands: %rax, -0x70(%rbp)  ---> Effective Address = 0x7fffffffdd30
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 209: test
+Operands: %r13b, %r13b
+---------------------------------------
+Instruction 210: je
+Operands: 0x7ffff7e4b3f0  ---> Effective Address = 0x7ffff7e4b3f0
+---------------------------------------
+Instruction 211: nopw
+Operands: 0x0(%rax,%rax,1),   ---> Effective Address = 0x7fffffffdd40%rax,1)
+---------------------------------------
+Instruction 212: mov
+Operands: %r13d, %edx
+---------------------------------------
+Instruction 213: mov
+Operands: %rbx, %rax
+---------------------------------------
+Instruction 214: jmp
+Operands: 0x7ffff7e4b1e5  ---> Effective Address = 0x7ffff7e4b1e5
+---------------------------------------
+Instruction 215: cmp
+Operands: $0x25, %dl
+---------------------------------------
+Instruction 216: jne
+Operands: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+---------------------------------------
+Instruction 217: lea
+Operands: 0x1(%rax),   ---> Effective Address = 0x7ffff7f7507d%rdi
+---------------------------------------
+Instruction 218: mov
+Operands: $0x25, %esi
+---------------------------------------
+Instruction 219: callq
+Operands: 0x7ffff7de0390  ---> Effective Address = 0x7ffff7de0390
+---------------------------------------
+Instruction 220: endbr64
+NO ARGS
+---------------------------------------
+Instruction 221: bnd
+Operands: jmpq
+---------------------------------------
+Instruction 222: endbr64
+NO ARGS
+---------------------------------------
+Instruction 223: mov
+Operands: %edi, %ecx
+---------------------------------------
+Instruction 224: vmovd
+Operands: %esi, %xmm0
+---------------------------------------
+Instruction 225: vpxor
+Operands: %xmm9, %xmm9,%xmm9
+---------------------------------------
+Instruction 226: vpbroadcastb
+Operands: %xmm0, %ymm0
+---------------------------------------
+Instruction 227: and
+Operands: $0x3f, %ecx
+---------------------------------------
+Instruction 228: cmp
+Operands: $0x20, %ecx
+---------------------------------------
+Instruction 229: ja
+Operands: 0x7ffff7f462f0  ---> Effective Address = 0x7ffff7f462f0
+---------------------------------------
+Instruction 230: and
+Operands: $0x1f, %ecx
+---------------------------------------
+Instruction 231: and
+Operands: $0xffffffffffffffe0, %rdi
+---------------------------------------
+Instruction 232: vmovdqu
+Operands: (%rdi),   ---> Effective Address = 0x7ffff7f75060%ymm8
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 233: vpcmpeqb
+Operands: %ymm8, %ymm0,%ymm1
+---------------------------------------
+Instruction 234: vpcmpeqb
+Operands: %ymm8, %ymm9,%ymm2
+---------------------------------------
+Instruction 235: vpor
+Operands: %ymm1, %ymm2,%ymm1
+---------------------------------------
+Instruction 236: vpmovmskb
+Operands: %ymm1, %eax
+---------------------------------------
+Instruction 237: sar
+Operands: %cl, %eax
+---------------------------------------
+Instruction 238: test
+Operands: %eax, %eax
+---------------------------------------
+Instruction 239: je
+Operands: 0x7ffff7f46330  ---> Effective Address = 0x7ffff7f46330
+---------------------------------------
+Instruction 240: add
+Operands: $0x20, %rdi
+---------------------------------------
+Instruction 241: vmovdqa
+Operands: (%rdi),   ---> Effective Address = 0x7ffff7f75080%ymm8
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 242: vpcmpeqb
+Operands: %ymm8, %ymm0,%ymm1
+---------------------------------------
+Instruction 243: vpcmpeqb
+Operands: %ymm8, %ymm9,%ymm2
+---------------------------------------
+Instruction 244: vpor
+Operands: %ymm1, %ymm2,%ymm1
+---------------------------------------
+Instruction 245: vpmovmskb
+Operands: %ymm1, %eax
+---------------------------------------
+Instruction 246: test
+Operands: %eax, %eax
+---------------------------------------
+Instruction 247: jne
+Operands: 0x7ffff7f46430  ---> Effective Address = 0x7ffff7f46430
+---------------------------------------
+Instruction 248: tzcnt
+Operands: %eax, %eax
+---------------------------------------
+Instruction 249: add
+Operands: %rdi, %rax
+---------------------------------------
+Instruction 250: vzeroupper
+NO ARGS
+---------------------------------------
+Instruction 251: retq
+NO ARGS
+---------------------------------------
+Instruction 252: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7ffff7f75080%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 253: test
+Operands: %dl, %dl
+---------------------------------------
+Instruction 254: je
+Operands: 0x7ffff7e4b1f0  ---> Effective Address = 0x7ffff7e4b1f0
+---------------------------------------
+Instruction 255: cmp
+Operands: $0x25, %dl
+---------------------------------------
+Instruction 256: jne
+Operands: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+---------------------------------------
+Instruction 257: cmpb
+Operands: $0x73, 0x1(%rax)  ---> Effective Address = 0x7ffff7f75081
+---------------------------------------
+Instruction 258: jne
+Operands: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+---------------------------------------
+Instruction 259: cmp
+Operands: $0x25, %r13b
+---------------------------------------
+Instruction 260: je
+Operands: 0x7ffff7e4b258  ---> Effective Address = 0x7ffff7e4b258
+---------------------------------------
+Instruction 261: mov
+Operands: %rax, %r8
+---------------------------------------
+Instruction 262: mov
+Operands: %rbx, %rcx
+---------------------------------------
+Instruction 263: sub
+Operands: %rbx, %r8
+---------------------------------------
+Instruction 264: mov
+Operands: %rax, %rbx
+---------------------------------------
+Instruction 265: mov
+Operands: %rsp, %rax
+---------------------------------------
+Instruction 266: cmp
+Operands: %rax, %rsp
+---------------------------------------
+Instruction 267: je
+Operands: 0x7ffff7e4b21f  ---> Effective Address = 0x7ffff7e4b21f
+---------------------------------------
+Instruction 268: sub
+Operands: $0x20, %rsp
+---------------------------------------
+Instruction 269: orq
+Operands: $0x0, 0x18(%rsp)  ---> Effective Address = 0x7fffffffdd08
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 270: lea
+Operands: 0xf(%rsp),   ---> Effective Address = 0x7fffffffdcff%rax
+---------------------------------------
+Instruction 271: lea
+Operands: 0x1(%r14),   ---> Effective Address = 0x1%edx
+---------------------------------------
+Instruction 272: and
+Operands: $0xfffffffffffffff0, %rax
+---------------------------------------
+Instruction 273: mov
+Operands: %rcx, (%rax)
+---------------------------------------
+Instruction 274: mov
+Operands: %r8, 0x8(%rax)  ---> Effective Address = 0x7fffffffdcf8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 275: mov
+Operands: %r12, 0x10(%rax)  ---> Effective Address = 0x7fffffffdd00
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 276: movzbl
+Operands: (%rbx),   ---> Effective Address = 0x7ffff7f75080%r13d
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 277: test
+Operands: %r13b, %r13b
+---------------------------------------
+Instruction 278: je
+Operands: 0x7ffff7e4b29b  ---> Effective Address = 0x7ffff7e4b29b
+---------------------------------------
+Instruction 279: mov
+Operands: %edx, %r14d
+---------------------------------------
+Instruction 280: mov
+Operands: %rax, %r12
+---------------------------------------
+Instruction 281: jmpq
+Operands: 0x7ffff7e4b1c0  ---> Effective Address = 0x7ffff7e4b1c0
+---------------------------------------
+Instruction 282: mov
+Operands: %r13d, %edx
+---------------------------------------
+Instruction 283: mov
+Operands: %rbx, %rax
+---------------------------------------
+Instruction 284: jmp
+Operands: 0x7ffff7e4b1e5  ---> Effective Address = 0x7ffff7e4b1e5
+---------------------------------------
+Instruction 285: cmp
+Operands: $0x25, %dl
+---------------------------------------
+Instruction 286: jne
+Operands: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+---------------------------------------
+Instruction 287: cmpb
+Operands: $0x73, 0x1(%rax)  ---> Effective Address = 0x7ffff7f75081
+---------------------------------------
+Instruction 288: jne
+Operands: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+---------------------------------------
+Instruction 289: cmp
+Operands: $0x25, %r13b
+---------------------------------------
+Instruction 290: je
+Operands: 0x7ffff7e4b258  ---> Effective Address = 0x7ffff7e4b258
+---------------------------------------
+Instruction 291: cmpb
+Operands: $0x73, 0x1(%rbx)  ---> Effective Address = 0x7ffff7f75081
+---------------------------------------
+Instruction 292: jne
+Operands: 0x7ffff7e4b1f6  ---> Effective Address = 0x7ffff7e4b1f6
+---------------------------------------
+Instruction 293: mov
+Operands: -0x80(%rbp),   ---> Effective Address = 0x7fffffffdd20%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 294: cmp
+Operands: $0x2f, %eax
+---------------------------------------
+Instruction 295: ja
+Operands: 0x7ffff7e4b412  ---> Effective Address = 0x7ffff7e4b412
+---------------------------------------
+Instruction 296: mov
+Operands: %eax, %edx
+---------------------------------------
+Instruction 297: add
+Operands: $0x8, %eax
+---------------------------------------
+Instruction 298: add
+Operands: -0x70(%rbp),   ---> Effective Address = 0x7fffffffdd30%rdx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 299: mov
+Operands: %eax, -0x80(%rbp)  ---> Effective Address = 0x7fffffffdd20
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 300: mov
+Operands: (%rdx),   ---> Effective Address = 0x7fffffffdd50%rcx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 301: add
+Operands: $0x2, %rbx
+---------------------------------------
+Instruction 302: mov
+Operands: %rcx, %rdi
+---------------------------------------
+Instruction 303: mov
+Operands: %rcx, -0x88(%rbp)  ---> Effective Address = 0x7fffffffdd18
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 304: callq
+Operands: 0x7ffff7de0460  ---> Effective Address = 0x7ffff7de0460
+---------------------------------------
+Instruction 305: endbr64
+NO ARGS
+---------------------------------------
+Instruction 306: bnd
+Operands: jmpq
+---------------------------------------
+Instruction 307: endbr64
+NO ARGS
+---------------------------------------
+Instruction 308: mov
+Operands: %edi, %ecx
+---------------------------------------
+Instruction 309: mov
+Operands: %rdi, %rdx
+---------------------------------------
+Instruction 310: vpxor
+Operands: %xmm0, %xmm0,%xmm0
+---------------------------------------
+Instruction 311: and
+Operands: $0x3f, %ecx
+---------------------------------------
+Instruction 312: cmp
+Operands: $0x20, %ecx
+---------------------------------------
+Instruction 313: ja
+Operands: 0x7ffff7f466a0  ---> Effective Address = 0x7ffff7f466a0
+---------------------------------------
+Instruction 314: and
+Operands: $0x1f, %ecx
+---------------------------------------
+Instruction 315: and
+Operands: $0xffffffffffffffe0, %rdi
+---------------------------------------
+Instruction 316: vpcmpeqb
+Operands: (%rdi),   ---> Effective Address = 0x7ffff7f75060%ymm0,%ymm1
+---------------------------------------
+Instruction 317: vpmovmskb
+Operands: %ymm1, %eax
+---------------------------------------
+Instruction 318: sar
+Operands: %cl, %eax
+---------------------------------------
+Instruction 319: test
+Operands: %eax, %eax
+---------------------------------------
+Instruction 320: je
+Operands: 0x7ffff7f466d0  ---> Effective Address = 0x7ffff7f466d0
+---------------------------------------
+Instruction 321: tzcnt
+Operands: %eax, %eax
+---------------------------------------
+Instruction 322: add
+Operands: %rdi, %rax
+---------------------------------------
+Instruction 323: add
+Operands: %rcx, %rax
+---------------------------------------
+Instruction 324: sub
+Operands: %rdx, %rax
+---------------------------------------
+Instruction 325: vzeroupper
+NO ARGS
+---------------------------------------
+Instruction 326: retq
+NO ARGS
+---------------------------------------
+Instruction 327: mov
+Operands: -0x88(%rbp),   ---> Effective Address = 0x7fffffffdd18%rcx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 328: mov
+Operands: %rax, %r8
+---------------------------------------
+Instruction 329: jmpq
+Operands: 0x7ffff7e4b202  ---> Effective Address = 0x7ffff7e4b202
+---------------------------------------
+Instruction 330: mov
+Operands: %rsp, %rax
+---------------------------------------
+Instruction 331: cmp
+Operands: %rax, %rsp
+---------------------------------------
+Instruction 332: je
+Operands: 0x7ffff7e4b21f  ---> Effective Address = 0x7ffff7e4b21f
+---------------------------------------
+Instruction 333: sub
+Operands: $0x20, %rsp
+---------------------------------------
+Instruction 334: orq
+Operands: $0x0, 0x18(%rsp)  ---> Effective Address = 0x7fffffffdce8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 335: lea
+Operands: 0xf(%rsp),   ---> Effective Address = 0x7fffffffdcdf%rax
+---------------------------------------
+Instruction 336: lea
+Operands: 0x1(%r14),   ---> Effective Address = 0x2%edx
+---------------------------------------
+Instruction 337: and
+Operands: $0xfffffffffffffff0, %rax
+---------------------------------------
+Instruction 338: mov
+Operands: %rcx, (%rax)
+---------------------------------------
+Instruction 339: mov
+Operands: %r8, 0x8(%rax)  ---> Effective Address = 0x7fffffffdcd8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 340: mov
+Operands: %r12, 0x10(%rax)  ---> Effective Address = 0x7fffffffdce0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 341: movzbl
+Operands: (%rbx),   ---> Effective Address = 0x7ffff7f75082%r13d
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 342: test
+Operands: %r13b, %r13b
+---------------------------------------
+Instruction 343: je
+Operands: 0x7ffff7e4b29b  ---> Effective Address = 0x7ffff7e4b29b
+---------------------------------------
+Instruction 344: mov
+Operands: %edx, %r14d
+---------------------------------------
+Instruction 345: mov
+Operands: %rax, %r12
+---------------------------------------
+Instruction 346: jmpq
+Operands: 0x7ffff7e4b1c0  ---> Effective Address = 0x7ffff7e4b1c0
+---------------------------------------
+Instruction 347: mov
+Operands: %r13d, %edx
+---------------------------------------
+Instruction 348: mov
+Operands: %rbx, %rax
+---------------------------------------
+Instruction 349: jmp
+Operands: 0x7ffff7e4b1e5  ---> Effective Address = 0x7ffff7e4b1e5
+---------------------------------------
+Instruction 350: cmp
+Operands: $0x25, %dl
+---------------------------------------
+Instruction 351: jne
+Operands: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+---------------------------------------
+Instruction 352: lea
+Operands: 0x1(%rax),   ---> Effective Address = 0x7ffff7f75083%rdi
+---------------------------------------
+Instruction 353: mov
+Operands: $0x25, %esi
+---------------------------------------
+Instruction 354: callq
+Operands: 0x7ffff7de0390  ---> Effective Address = 0x7ffff7de0390
+---------------------------------------
+Instruction 355: endbr64
+NO ARGS
+---------------------------------------
+Instruction 356: bnd
+Operands: jmpq
+---------------------------------------
+Instruction 357: endbr64
+NO ARGS
+---------------------------------------
+Instruction 358: mov
+Operands: %edi, %ecx
+---------------------------------------
+Instruction 359: vmovd
+Operands: %esi, %xmm0
+---------------------------------------
+Instruction 360: vpxor
+Operands: %xmm9, %xmm9,%xmm9
+---------------------------------------
+Instruction 361: vpbroadcastb
+Operands: %xmm0, %ymm0
+---------------------------------------
+Instruction 362: and
+Operands: $0x3f, %ecx
+---------------------------------------
+Instruction 363: cmp
+Operands: $0x20, %ecx
+---------------------------------------
+Instruction 364: ja
+Operands: 0x7ffff7f462f0  ---> Effective Address = 0x7ffff7f462f0
+---------------------------------------
+Instruction 365: vmovdqu
+Operands: (%rdi),   ---> Effective Address = 0x7ffff7f75083%ymm8
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 366: vpcmpeqb
+Operands: %ymm8, %ymm0,%ymm1
+---------------------------------------
+Instruction 367: vpcmpeqb
+Operands: %ymm8, %ymm9,%ymm2
+---------------------------------------
+Instruction 368: vpor
+Operands: %ymm1, %ymm2,%ymm1
+---------------------------------------
+Instruction 369: vpmovmskb
+Operands: %ymm1, %eax
+---------------------------------------
+Instruction 370: test
+Operands: %eax, %eax
+---------------------------------------
+Instruction 371: jne
+Operands: 0x7ffff7f46430  ---> Effective Address = 0x7ffff7f46430
+---------------------------------------
+Instruction 372: tzcnt
+Operands: %eax, %eax
+---------------------------------------
+Instruction 373: add
+Operands: %rdi, %rax
+---------------------------------------
+Instruction 374: vzeroupper
+NO ARGS
+---------------------------------------
+Instruction 375: retq
+NO ARGS
+---------------------------------------
+Instruction 376: movzbl
+Operands: (%rax),   ---> Effective Address = 0x7ffff7f75093%edx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 377: test
+Operands: %dl, %dl
+---------------------------------------
+Instruction 378: je
+Operands: 0x7ffff7e4b1f0  ---> Effective Address = 0x7ffff7e4b1f0
+---------------------------------------
+Instruction 379: cmp
+Operands: $0x25, %r13b
+---------------------------------------
+Instruction 380: je
+Operands: 0x7ffff7e4b258  ---> Effective Address = 0x7ffff7e4b258
+---------------------------------------
+Instruction 381: mov
+Operands: %rax, %r8
+---------------------------------------
+Instruction 382: mov
+Operands: %rbx, %rcx
+---------------------------------------
+Instruction 383: sub
+Operands: %rbx, %r8
+---------------------------------------
+Instruction 384: mov
+Operands: %rax, %rbx
+---------------------------------------
+Instruction 385: mov
+Operands: %rsp, %rax
+---------------------------------------
+Instruction 386: cmp
+Operands: %rax, %rsp
+---------------------------------------
+Instruction 387: je
+Operands: 0x7ffff7e4b21f  ---> Effective Address = 0x7ffff7e4b21f
+---------------------------------------
+Instruction 388: sub
+Operands: $0x20, %rsp
+---------------------------------------
+Instruction 389: orq
+Operands: $0x0, 0x18(%rsp)  ---> Effective Address = 0x7fffffffdcc8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 390: lea
+Operands: 0xf(%rsp),   ---> Effective Address = 0x7fffffffdcbf%rax
+---------------------------------------
+Instruction 391: lea
+Operands: 0x1(%r14),   ---> Effective Address = 0x3%edx
+---------------------------------------
+Instruction 392: and
+Operands: $0xfffffffffffffff0, %rax
+---------------------------------------
+Instruction 393: mov
+Operands: %rcx, (%rax)
+---------------------------------------
+Instruction 394: mov
+Operands: %r8, 0x8(%rax)  ---> Effective Address = 0x7fffffffdcb8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 395: mov
+Operands: %r12, 0x10(%rax)  ---> Effective Address = 0x7fffffffdcc0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 396: movzbl
+Operands: (%rbx),   ---> Effective Address = 0x7ffff7f75093%r13d
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 397: test
+Operands: %r13b, %r13b
+---------------------------------------
+Instruction 398: je
+Operands: 0x7ffff7e4b29b  ---> Effective Address = 0x7ffff7e4b29b
+---------------------------------------
+Instruction 399: movslq
+Operands: %edx, %rdx
+---------------------------------------
+Instruction 400: mov
+Operands: %rsp, %rbx
+---------------------------------------
+Instruction 401: mov
+Operands: %rdx, %rax
+---------------------------------------
+Instruction 402: shl
+Operands: $0x4, %rax
+---------------------------------------
+Instruction 403: add
+Operands: $0x10, %rax
+---------------------------------------
+Instruction 404: mov
+Operands: %rax, %rsi
+---------------------------------------
+Instruction 405: and
+Operands: $0xfffffffffffff000, %rsi
+---------------------------------------
+Instruction 406: sub
+Operands: %rsi, %rbx
+---------------------------------------
+Instruction 407: mov
+Operands: %rbx, %rsi
+---------------------------------------
+Instruction 408: cmp
+Operands: %rsi, %rsp
+---------------------------------------
+Instruction 409: je
+Operands: 0x7ffff7e4b2d6  ---> Effective Address = 0x7ffff7e4b2d6
+---------------------------------------
+Instruction 410: and
+Operands: $0xfff, %eax
+---------------------------------------
+Instruction 411: sub
+Operands: %rax, %rsp
+---------------------------------------
+Instruction 412: test
+Operands: %rax, %rax
+---------------------------------------
+Instruction 413: jne
+Operands: 0x7ffff7e4b423  ---> Effective Address = 0x7ffff7e4b423
+---------------------------------------
+Instruction 414: orq
+Operands: $0x0, -0x8(%rsp,%rax,1)  ---> Effective Address = 0x7fffffffdca8
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 415: jmpq
+Operands: 0x7ffff7e4b2e7  ---> Effective Address = 0x7ffff7e4b2e7
+---------------------------------------
+Instruction 416: movslq
+Operands: %r14d, %r13
+---------------------------------------
+Instruction 417: lea
+Operands: 0xf(%rsp),   ---> Effective Address = 0x7fffffffdc7f%rbx
+---------------------------------------
+Instruction 418: mov
+Operands: %r13, %rsi
+---------------------------------------
+Instruction 419: and
+Operands: $0xfffffffffffffff0, %rbx
+---------------------------------------
+Instruction 420: shl
+Operands: $0x4, %rsi
+---------------------------------------
+Instruction 421: lea
+Operands: (%rbx,%rsi,1),   ---> Effective Address = 0x7fffffffdc90%rax
+---------------------------------------
+Instruction 422: mov
+Operands: %rcx, (%rax)
+---------------------------------------
+Instruction 423: mov
+Operands: %r8, 0x8(%rax)  ---> Effective Address = 0x7fffffffdc98
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 424: test
+Operands: %r14d, %r14d
+---------------------------------------
+Instruction 425: je
+Operands: 0x7ffff7e4b33b  ---> Effective Address = 0x7ffff7e4b33b
+---------------------------------------
+Instruction 426: lea
+Operands: -0x1(%r14),   ---> Effective Address = 0x1%ecx
+---------------------------------------
+Instruction 427: lea
+Operands: -0x10(%rbx,%rsi,1),   ---> Effective Address = 0x7fffffffdc60%rdi
+---------------------------------------
+Instruction 428: shl
+Operands: $0x4, %rcx
+---------------------------------------
+Instruction 429: sub
+Operands: %rcx, %rdi
+---------------------------------------
+Instruction 430: mov
+Operands: 0x8(%r12),   ---> Effective Address = 0x7fffffffdcd8%rcx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 431: mov
+Operands: (%r12),   ---> Effective Address = 0x7fffffffdcd0%rsi
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 432: sub
+Operands: $0x10, %rax
+---------------------------------------
+Instruction 433: mov
+Operands: 0x10(%r12),   ---> Effective Address = 0x7fffffffdd00%r12
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 434: add
+Operands: %rcx, %r8
+---------------------------------------
+Instruction 435: mov
+Operands: %rsi, (%rax)
+---------------------------------------
+Instruction 436: mov
+Operands: %rcx, 0x8(%rax)  ---> Effective Address = 0x7fffffffdc88
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 437: cmp
+Operands: %rax, %rdi
+---------------------------------------
+Instruction 438: jne
+Operands: 0x7ffff7e4b31a  ---> Effective Address = 0x7ffff7e4b31a
+---------------------------------------
+Instruction 439: mov
+Operands: 0x8(%r12),   ---> Effective Address = 0x7fffffffdcf8%rcx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 440: mov
+Operands: (%r12),   ---> Effective Address = 0x7fffffffdcf0%rsi
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 441: sub
+Operands: $0x10, %rax
+---------------------------------------
+Instruction 442: mov
+Operands: 0x10(%r12),   ---> Effective Address = 0x10%r12
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 443: add
+Operands: %rcx, %r8
+---------------------------------------
+Instruction 444: mov
+Operands: %rsi, (%rax)
+---------------------------------------
+Instruction 445: mov
+Operands: %rcx, 0x8(%rax)  ---> Effective Address = 0x7fffffffdc78
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 446: cmp
+Operands: %rax, %rdi
+---------------------------------------
+Instruction 447: jne
+Operands: 0x7ffff7e4b31a  ---> Effective Address = 0x7ffff7e4b31a
+---------------------------------------
+Instruction 448: mov
+Operands: $0x14, %r9d
+---------------------------------------
+Instruction 449: nopl
+Operands: 0x0(%rax)  ---> Effective Address = 0x7fffffffdc70
+---------------------------------------
+Instruction 450: mov
+Operands: %rbx, %rsi
+---------------------------------------
+Instruction 451: mov
+Operands: $0x2, %edi
+---------------------------------------
+Instruction 452: mov
+Operands: %r9d, %eax
+---------------------------------------
+Instruction 453: syscall
+NO ARGS
+---------------------------------------
+Instruction 454: cmp
+Operands: $0xfffffffffffffffc, %rax
+---------------------------------------
+Instruction 455: je
+Operands: 0x7ffff7e4b348  ---> Effective Address = 0x7ffff7e4b348
+---------------------------------------
+Instruction 456: test
+Operands: %r15d, %r15d
+---------------------------------------
+Instruction 457: je
+Operands: 0x7ffff7e4b3f4  ---> Effective Address = 0x7ffff7e4b3f4
+---------------------------------------
+Instruction 458: xor
+Operands: %r9d, %r9d
+---------------------------------------
+Instruction 459: mov
+Operands: $0x22, %ecx
+---------------------------------------
+Instruction 460: mov
+Operands: $0x3, %edx
+---------------------------------------
+Instruction 461: xor
+Operands: %edi, %edi
+---------------------------------------
+Instruction 462: mov
+Operands: 0x15aae6(%rip),   ---> Effective Address = 0x7ffff7fa5e60%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 463: mov
+Operands: 0x18(%rax),   ---> Effective Address = 0x1018%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 464: add
+Operands: %rax, %r8
+---------------------------------------
+Instruction 465: neg
+Operands: %rax
+---------------------------------------
+Instruction 466: and
+Operands: %rax, %r8
+---------------------------------------
+Instruction 467: mov
+Operands: %r8, %r12
+---------------------------------------
+Instruction 468: mov
+Operands: $0xffffffff, %r8d
+---------------------------------------
+Instruction 469: mov
+Operands: %r12, %rsi
+---------------------------------------
+Instruction 470: callq
+Operands: 0x7ffff7ed6a20  ---> Effective Address = 0x7ffff7ed6a20
+---------------------------------------
+Instruction 471: endbr64
+NO ARGS
+---------------------------------------
+Instruction 472: test
+Operands: $0xfff, %r9d
+---------------------------------------
+Instruction 473: jne
+Operands: 0x7ffff7ed6a58  ---> Effective Address = 0x7ffff7ed6a58
+---------------------------------------
+Instruction 474: push
+Operands: %rbp
+---------------------------------------
+Instruction 475: mov
+Operands: %rdi, %rbp
+---------------------------------------
+Instruction 476: push
+Operands: %rbx
+---------------------------------------
+Instruction 477: mov
+Operands: %ecx, %ebx
+---------------------------------------
+Instruction 478: test
+Operands: %rdi, %rdi
+---------------------------------------
+Instruction 479: je
+Operands: 0x7ffff7ed6a70  ---> Effective Address = 0x7ffff7ed6a70
+---------------------------------------
+Instruction 480: test
+Operands: $0x4, %dl
+---------------------------------------
+Instruction 481: je
+Operands: 0x7ffff7ed6a39  ---> Effective Address = 0x7ffff7ed6a39
+---------------------------------------
+Instruction 482: mov
+Operands: %ebx, %r10d
+---------------------------------------
+Instruction 483: mov
+Operands: %rbp, %rdi
+---------------------------------------
+Instruction 484: mov
+Operands: $0x9, %eax
+---------------------------------------
+Instruction 485: syscall
+NO ARGS
+---------------------------------------
+Instruction 486: cmp
+Operands: $0xfffffffffffff000, %rax
+---------------------------------------
+Instruction 487: ja
+Operands: 0x7ffff7ed6ab0  ---> Effective Address = 0x7ffff7ed6ab0
+---------------------------------------
+Instruction 488: pop
+Operands: %rbx
+---------------------------------------
+Instruction 489: pop
+Operands: %rbp
+---------------------------------------
+Instruction 490: retq
+NO ARGS
+---------------------------------------
+Instruction 491: mov
+Operands: %rax, %r14
+---------------------------------------
+Instruction 492: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 493: je
+Operands: 0x7ffff7e4b3e9  ---> Effective Address = 0x7ffff7e4b3e9
+---------------------------------------
+Instruction 494: shl
+Operands: $0x4, %r13
+---------------------------------------
+Instruction 495: mov
+Operands: %r12d, (%rax)
+---------------------------------------
+Instruction 496: lea
+Operands: 0x4(%rax),   ---> Effective Address = 0x7ffff7ffb004%rdi
+---------------------------------------
+Instruction 497: lea
+Operands: 0x10(%rbx,%r13,1),   ---> Effective Address = 0x7fffffffdc80%r12
+---------------------------------------
+Instruction 498: nopl
+Operands: 0x0(%rax)  ---> Effective Address = 0x7ffff7ffb000
+---------------------------------------
+Instruction 499: mov
+Operands: 0x8(%rbx),   ---> Effective Address = 0x7fffffffdc78%rdx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 500: mov
+Operands: (%rbx),   ---> Effective Address = 0x7fffffffdc70%rsi
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 501: add
+Operands: $0x10, %rbx
+---------------------------------------
+Instruction 502: callq
+Operands: 0x7ffff7de05a0  ---> Effective Address = 0x7ffff7de05a0
+---------------------------------------
+Instruction 503: endbr64
+NO ARGS
+---------------------------------------
+Instruction 504: bnd
+Operands: jmpq
+---------------------------------------
+Instruction 505: endbr64
+NO ARGS
+---------------------------------------
+Instruction 506: mov
+Operands: %rdi, %rax
+---------------------------------------
+Instruction 507: add
+Operands: %rdx, %rax
+---------------------------------------
+Instruction 508: jmp
+Operands: 0x7ffff7f49607  ---> Effective Address = 0x7ffff7f49607
+---------------------------------------
+Instruction 509: cmp
+Operands: $0x20, %rdx
+---------------------------------------
+Instruction 510: jb
+Operands: 0x7ffff7f496c6  ---> Effective Address = 0x7ffff7f496c6
+---------------------------------------
+Instruction 511: cmp
+Operands: $0x10, %dl
+---------------------------------------
+Instruction 512: jae
+Operands: 0x7ffff7f496e2  ---> Effective Address = 0x7ffff7f496e2
+---------------------------------------
+Instruction 513: cmp
+Operands: $0x8, %dl
+---------------------------------------
+Instruction 514: jae
+Operands: 0x7ffff7f496f7  ---> Effective Address = 0x7ffff7f496f7
+---------------------------------------
+Instruction 515: cmp
+Operands: $0x4, %dl
+---------------------------------------
+Instruction 516: jae
+Operands: 0x7ffff7f49708  ---> Effective Address = 0x7ffff7f49708
+---------------------------------------
+Instruction 517: mov
+Operands: -0x4(%rsi,%rdx,1),   ---> Effective Address = 0x7ffff7f75078%ecx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 518: mov
+Operands: (%rsi),   ---> Effective Address = 0x202a2a2a%esi
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 519: mov
+Operands: %ecx, -0x4(%rdi,%rdx,1)  ---> Effective Address = 0x7ffff7ffb004
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 520: mov
+Operands: %esi, (%rdi)
+---------------------------------------
+Instruction 521: retq
+NO ARGS
+---------------------------------------
+Instruction 522: mov
+Operands: %rax, %rdi
+---------------------------------------
+Instruction 523: cmp
+Operands: %r12, %rbx
+---------------------------------------
+Instruction 524: jne
+Operands: 0x7ffff7e4b3b8  ---> Effective Address = 0x7ffff7e4b3b8
+---------------------------------------
+Instruction 525: mov
+Operands: 0x8(%rbx),   ---> Effective Address = 0x7fffffffdc88%rdx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 526: mov
+Operands: (%rbx),   ---> Effective Address = 0x7fffffffdc80%rsi
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 527: add
+Operands: $0x10, %rbx
+---------------------------------------
+Instruction 528: callq
+Operands: 0x7ffff7de05a0  ---> Effective Address = 0x7ffff7de05a0
+---------------------------------------
+Instruction 529: endbr64
+NO ARGS
+---------------------------------------
+Instruction 530: bnd
+Operands: jmpq
+---------------------------------------
+Instruction 531: endbr64
+NO ARGS
+---------------------------------------
+Instruction 532: mov
+Operands: %rdi, %rax
+---------------------------------------
+Instruction 533: add
+Operands: %rdx, %rax
+---------------------------------------
+Instruction 534: jmp
+Operands: 0x7ffff7f49607  ---> Effective Address = 0x7ffff7f49607
+---------------------------------------
+Instruction 535: cmp
+Operands: $0x20, %rdx
+---------------------------------------
+Instruction 536: jb
+Operands: 0x7ffff7f496c6  ---> Effective Address = 0x7ffff7f496c6
+---------------------------------------
+Instruction 537: cmp
+Operands: $0x10, %dl
+---------------------------------------
+Instruction 538: jae
+Operands: 0x7ffff7f496e2  ---> Effective Address = 0x7ffff7f496e2
+---------------------------------------
+Instruction 539: vmovdqu
+Operands: (%rsi),   ---> Effective Address = 0x7ffff7f75064%xmm0
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 540: vmovdqu
+Operands: -0x10(%rsi,%rdx,1),   ---> Effective Address = 0x7ffff7f75054%xmm1
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 541: vmovdqu
+Operands: %xmm0, (%rdi)
+---------------------------------------
+Instruction 542: vmovdqu
+Operands: %xmm1, -0x10(%rdi,%rdx,1)  ---> Effective Address = 0x7ffff7ffb00f
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 543: retq
+NO ARGS
+---------------------------------------
+Instruction 544: mov
+Operands: %rax, %rdi
+---------------------------------------
+Instruction 545: cmp
+Operands: %r12, %rbx
+---------------------------------------
+Instruction 546: jne
+Operands: 0x7ffff7e4b3b8  ---> Effective Address = 0x7ffff7e4b3b8
+---------------------------------------
+Instruction 547: mov
+Operands: 0x8(%rbx),   ---> Effective Address = 0x7fffffffdc98%rdx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 548: mov
+Operands: (%rbx),   ---> Effective Address = 0x7fffffffdc90%rsi
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 549: add
+Operands: $0x10, %rbx
+---------------------------------------
+Instruction 550: callq
+Operands: 0x7ffff7de05a0  ---> Effective Address = 0x7ffff7de05a0
+---------------------------------------
+Instruction 551: endbr64
+NO ARGS
+---------------------------------------
+Instruction 552: bnd
+Operands: jmpq
+---------------------------------------
+Instruction 553: endbr64
+NO ARGS
+---------------------------------------
+Instruction 554: mov
+Operands: %rdi, %rax
+---------------------------------------
+Instruction 555: add
+Operands: %rdx, %rax
+---------------------------------------
+Instruction 556: jmp
+Operands: 0x7ffff7f49607  ---> Effective Address = 0x7ffff7f49607
+---------------------------------------
+Instruction 557: cmp
+Operands: $0x20, %rdx
+---------------------------------------
+Instruction 558: jb
+Operands: 0x7ffff7f496c6  ---> Effective Address = 0x7ffff7f496c6
+---------------------------------------
+Instruction 559: cmp
+Operands: $0x10, %dl
+---------------------------------------
+Instruction 560: jae
+Operands: 0x7ffff7f496e2  ---> Effective Address = 0x7ffff7f496e2
+---------------------------------------
+Instruction 561: vmovdqu
+Operands: (%rsi),   ---> Effective Address = 0x7ffff7f75082%xmm0
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 562: vmovdqu
+Operands: -0x10(%rsi,%rdx,1),   ---> Effective Address = 0x7ffff7f75072%xmm1
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 563: vmovdqu
+Operands: %xmm0, (%rdi)
+---------------------------------------
+Instruction 564: vmovdqu
+Operands: %xmm1, -0x10(%rdi,%rdx,1)  ---> Effective Address = 0x7ffff7ffb020
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 565: retq
+NO ARGS
+---------------------------------------
+Instruction 566: mov
+Operands: %rax, %rdi
+---------------------------------------
+Instruction 567: cmp
+Operands: %r12, %rbx
+---------------------------------------
+Instruction 568: jne
+Operands: 0x7ffff7e4b3b8  ---> Effective Address = 0x7ffff7e4b3b8
+---------------------------------------
+Instruction 569: movb
+Operands: $0x0, (%rax)
+---------------------------------------
+Instruction 570: mov
+Operands: %r14, %rdi
+---------------------------------------
+Instruction 571: xchg
+Operands: %rdi, 0x15d543(%rip)  ---> Effective Address = 0x7ffff7fa8920
+---------------------------------------
+Instruction 572: test
+Operands: %rdi, %rdi
+---------------------------------------
+Instruction 573: je
+Operands: 0x7ffff7e4b3e9  ---> Effective Address = 0x7ffff7e4b3e9
+---------------------------------------
+Instruction 574: callq
+Operands: 0x7ffff7de072e  ---> Effective Address = 0x7ffff7de072e
+---------------------------------------
+Instruction 575: endbr64
+NO ARGS
+---------------------------------------
+Instruction 576: push
+Operands: %rbx
+---------------------------------------
+Instruction 577: mov
+Operands: %fs:0x10, %rbx
+---------------------------------------
+Instruction 578: sub
+Operands: $0x120, %rsp
+---------------------------------------
+Instruction 579: mov
+Operands: %fs:0x28, %rax
+---------------------------------------
+Instruction 580: mov
+Operands: %rax, 0x118(%rsp)  ---> Effective Address = 0x7fffffffdc58
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 581: xor
+Operands: %eax, %eax
+---------------------------------------
+Instruction 582: cmp
+Operands: %rbx, 0x1c81db(%rip)  ---> Effective Address = 0x7ffff7fa8938
+---------------------------------------
+Instruction 583: je
+Operands: 0x7ffff7de079d  ---> Effective Address = 0x7ffff7de079d
+---------------------------------------
+Instruction 584: mov
+Operands: %fs:0x18, %eax
+---------------------------------------
+Instruction 585: test
+Operands: %eax, %eax
+---------------------------------------
+Instruction 586: jne
+Operands: 0x7ffff7de0779  ---> Effective Address = 0x7ffff7de0779
+---------------------------------------
+Instruction 587: mov
+Operands: $0x1, %edx
+---------------------------------------
+Instruction 588: cmpxchg
+Operands: %edx, 0x1c81b9(%rip)  ---> Effective Address = 0x7ffff7fa8930
+---------------------------------------
+Instruction 589: jmp
+Operands: 0x7ffff7de0796  ---> Effective Address = 0x7ffff7de0796
+---------------------------------------
+Instruction 590: mov
+Operands: %rbx, 0x1c819b(%rip)  ---> Effective Address = 0x7ffff7fa8938
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 591: incl
+Operands: 0x1c8191(%rip)  ---> Effective Address = 0x7ffff7fa8934
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 592: cmpl
+Operands: $0x0, 0x1c8196(%rip)  ---> Effective Address = 0x7ffff7fa8940
+---------------------------------------
+Instruction 593: jne
+Operands: 0x7ffff7de07e2  ---> Effective Address = 0x7ffff7de07e2
+---------------------------------------
+Instruction 594: movl
+Operands: $0x1, 0x1c818a(%rip)  ---> Effective Address = 0x7ffff7fa8940
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 595: mov
+Operands: $0x10, %eax
+---------------------------------------
+Instruction 596: dec
+Operands: %rax
+---------------------------------------
+Instruction 597: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 598: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 599: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 600: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 601: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 602: dec
+Operands: %rax
+---------------------------------------
+Instruction 603: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 604: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 605: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 606: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 607: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 608: dec
+Operands: %rax
+---------------------------------------
+Instruction 609: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 610: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 611: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 612: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 613: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 614: dec
+Operands: %rax
+---------------------------------------
+Instruction 615: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 616: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 617: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 618: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 619: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 620: dec
+Operands: %rax
+---------------------------------------
+Instruction 621: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 622: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 623: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 624: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 625: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 626: dec
+Operands: %rax
+---------------------------------------
+Instruction 627: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 628: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 629: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 630: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 631: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 632: dec
+Operands: %rax
+---------------------------------------
+Instruction 633: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 634: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 635: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 636: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 637: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 638: dec
+Operands: %rax
+---------------------------------------
+Instruction 639: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 640: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 641: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 642: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 643: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 644: dec
+Operands: %rax
+---------------------------------------
+Instruction 645: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 646: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 647: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 648: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 649: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 650: dec
+Operands: %rax
+---------------------------------------
+Instruction 651: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 652: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 653: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 654: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 655: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 656: dec
+Operands: %rax
+---------------------------------------
+Instruction 657: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 658: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 659: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 660: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 661: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 662: dec
+Operands: %rax
+---------------------------------------
+Instruction 663: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 664: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 665: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 666: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 667: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 668: dec
+Operands: %rax
+---------------------------------------
+Instruction 669: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 670: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 671: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 672: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 673: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 674: dec
+Operands: %rax
+---------------------------------------
+Instruction 675: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 676: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 677: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 678: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 679: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 680: dec
+Operands: %rax
+---------------------------------------
+Instruction 681: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 682: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 683: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 684: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 685: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 686: dec
+Operands: %rax
+---------------------------------------
+Instruction 687: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 688: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 689: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 690: movq
+Operands: $0x0, (%rsi,%rax,8)
+---------------------------------------
+Instruction 691: jmp
+Operands: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+---------------------------------------
+Instruction 692: dec
+Operands: %rax
+---------------------------------------
+Instruction 693: mov
+Operands: %rsp, %rsi
+---------------------------------------
+Instruction 694: cmp
+Operands: $0xffffffffffffffff, %rax
+---------------------------------------
+Instruction 695: je
+Operands: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+---------------------------------------
+Instruction 696: xor
+Operands: %edx, %edx
+---------------------------------------
+Instruction 697: mov
+Operands: $0x1, %edi
+---------------------------------------
+Instruction 698: orq
+Operands: $0x20, (%rsp)
+---------------------------------------
+Instruction 699: callq
+Operands: 0x7ffff7e01440  ---> Effective Address = 0x7ffff7e01440
+---------------------------------------
+Instruction 700: endbr64
+NO ARGS
+---------------------------------------
+Instruction 701: sub
+Operands: $0x98, %rsp
+---------------------------------------
+Instruction 702: xor
+Operands: %r8d, %r8d
+---------------------------------------
+Instruction 703: mov
+Operands: %fs:0x28, %rax
+---------------------------------------
+Instruction 704: mov
+Operands: %rax, 0x88(%rsp)  ---> Effective Address = 0x7fffffffdb28
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 705: xor
+Operands: %eax, %eax
+---------------------------------------
+Instruction 706: test
+Operands: %rsi, %rsi
+---------------------------------------
+Instruction 707: je
+Operands: 0x7ffff7e0147b  ---> Effective Address = 0x7ffff7e0147b
+---------------------------------------
+Instruction 708: movabs
+Operands: $0x180000000, %rcx
+---------------------------------------
+Instruction 709: mov
+Operands: (%rsi),   ---> Effective Address = 0x7fffffffdb40%rax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 710: test
+Operands: %rcx, %rax
+---------------------------------------
+Instruction 711: jne
+Operands: 0x7ffff7e014c0  ---> Effective Address = 0x7ffff7e014c0
+---------------------------------------
+Instruction 712: mov
+Operands: %rsi, %r8
+---------------------------------------
+Instruction 713: mov
+Operands: $0x8, %r10d
+---------------------------------------
+Instruction 714: mov
+Operands: %r8, %rsi
+---------------------------------------
+Instruction 715: mov
+Operands: $0xe, %eax
+---------------------------------------
+Instruction 716: syscall
+NO ARGS
+---------------------------------------
+Instruction 717: cmp
+Operands: $0xfffffffffffff000, %rax
+---------------------------------------
+Instruction 718: ja
+Operands: 0x7ffff7e01530  ---> Effective Address = 0x7ffff7e01530
+---------------------------------------
+Instruction 719: mov
+Operands: 0x88(%rsp),   ---> Effective Address = 0x7fffffffdb28%rcx
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 720: xor
+Operands: %fs:0x28, %rcx
+---------------------------------------
+Instruction 721: jne
+Operands: 0x7ffff7e01546  ---> Effective Address = 0x7ffff7e01546
+---------------------------------------
+Instruction 722: add
+Operands: $0x98, %rsp
+---------------------------------------
+Instruction 723: retq
+NO ARGS
+---------------------------------------
+Instruction 724: mov
+Operands: 0x1c8158(%rip),   ---> Effective Address = 0x7ffff7fa8940%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 725: cmp
+Operands: $0x1, %eax
+---------------------------------------
+Instruction 726: jne
+Operands: 0x7ffff7de08b1  ---> Effective Address = 0x7ffff7de08b1
+---------------------------------------
+Instruction 727: movl
+Operands: $0x0, 0x1c8145(%rip)  ---> Effective Address = 0x7ffff7fa8940
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 728: mov
+Operands: 0x1c8133(%rip),   ---> Effective Address = 0x7ffff7fa8934%eax
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 729: dec
+Operands: %eax
+---------------------------------------
+Instruction 730: mov
+Operands: %eax, 0x1c812b(%rip)  ---> Effective Address = 0x7ffff7fa8934
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 731: jne
+Operands: 0x7ffff7de084f  ---> Effective Address = 0x7ffff7de084f
+---------------------------------------
+Instruction 732: movq
+Operands: $0x0, 0x1c8122(%rip)  ---> Effective Address = 0x7ffff7fa8938
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 733: mov
+Operands: %fs:0x18, %edx
+---------------------------------------
+Instruction 734: test
+Operands: %edx, %edx
+---------------------------------------
+Instruction 735: jne
+Operands: 0x7ffff7de082a  ---> Effective Address = 0x7ffff7de082a
+---------------------------------------
+Instruction 736: decl
+Operands: 0x1c8108(%rip)  ---> Effective Address = 0x7ffff7fa8930
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 737: jmp
+Operands: 0x7ffff7de084f  ---> Effective Address = 0x7ffff7de084f
+---------------------------------------
+Instruction 738: mov
+Operands: $0x6, %edi
+---------------------------------------
+Instruction 739: callq
+Operands: 0x7ffff7e010c0  ---> Effective Address = 0x7ffff7e010c0
+---------------------------------------
+Instruction 740: endbr64
+NO ARGS
+---------------------------------------
+Instruction 741: sub
+Operands: $0x118, %rsp
+---------------------------------------
+Instruction 742: mov
+Operands: %edi, %r8d
+---------------------------------------
+Instruction 743: xor
+Operands: %edi, %edi
+---------------------------------------
+Instruction 744: movdqa
+Operands: 0x179708(%rip),   ---> Effective Address = 0x7ffff7f7a7e0%xmm0
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 745: mov
+Operands: %fs:0x28, %rax
+---------------------------------------
+Instruction 746: mov
+Operands: %rax, 0x108(%rsp)  ---> Effective Address = 0x7fffffffdb28
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 747: xor
+Operands: %eax, %eax
+---------------------------------------
+Instruction 748: mov
+Operands: %rsp, %r9
+---------------------------------------
+Instruction 749: mov
+Operands: $0xe, %eax
+---------------------------------------
+Instruction 750: lea
+Operands: 0x80(%rsp),   ---> Effective Address = 0x7fffffffdaa0%rsi
+---------------------------------------
+Instruction 751: movaps
+Operands: %xmm0, 0x80(%rsp)  ---> Effective Address = 0x7fffffffdaa0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 752: pcmpeqd
+Operands: %xmm0, %xmm0
+---------------------------------------
+Instruction 753: mov
+Operands: $0x8, %r10d
+---------------------------------------
+Instruction 754: mov
+Operands: %r9, %rdx
+---------------------------------------
+Instruction 755: movaps
+Operands: %xmm0, 0x90(%rsp)  ---> Effective Address = 0x7fffffffdab0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 756: movaps
+Operands: %xmm0, 0xa0(%rsp)  ---> Effective Address = 0x7fffffffdac0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 757: movaps
+Operands: %xmm0, 0xb0(%rsp)  ---> Effective Address = 0x7fffffffdad0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 758: movaps
+Operands: %xmm0, 0xc0(%rsp)  ---> Effective Address = 0x7fffffffdae0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 759: movaps
+Operands: %xmm0, 0xd0(%rsp)  ---> Effective Address = 0x7fffffffdaf0
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 760: movaps
+Operands: %xmm0, 0xe0(%rsp)  ---> Effective Address = 0x7fffffffdb00
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 761: movaps
+Operands: %xmm0, 0xf0(%rsp)  ---> Effective Address = 0x7fffffffdb10
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 762: syscall
+NO ARGS
+---------------------------------------
+Instruction 763: mov
+Operands: $0x27, %ecx
+---------------------------------------
+Instruction 764: mov
+Operands: %ecx, %eax
+---------------------------------------
+Instruction 765: syscall
+NO ARGS
+---------------------------------------
+Instruction 766: mov
+Operands: %rax, %rdi
+---------------------------------------
+Instruction 767: mov
+Operands: $0xba, %eax
+---------------------------------------
+Instruction 768: syscall
+NO ARGS
+---------------------------------------
+Instruction 769: mov
+Operands: %eax, %esi
+---------------------------------------
+Instruction 770: mov
+Operands: %r8d, %edx
+---------------------------------------
+Instruction 771: mov
+Operands: $0xea, %eax
+---------------------------------------
+Instruction 772: syscall
+NO ARGS
+---------------------------------------
+Instruction 773: cmp
+Operands: $0xfffffffffffff000, %rax
+---------------------------------------
+Instruction 774: ja
+Operands: 0x7ffff7e011b0  ---> Effective Address = 0x7ffff7e011b0
+---------------------------------------
+Instruction 775: mov
+Operands: %eax, %r8d
+---------------------------------------
+Instruction 776: mov
+Operands: $0x8, %r10d
+---------------------------------------
+Instruction 777: xor
+Operands: %edx, %edx
+---------------------------------------
+Instruction 778: mov
+Operands: %r9, %rsi
+---------------------------------------
+Instruction 779: mov
+Operands: $0x2, %edi
+---------------------------------------
+Instruction 780: mov
+Operands: $0xe, %eax
+---------------------------------------
+Instruction 781: syscall
+NO ARGS
+---------------------------------------
+Instruction 782: mov
+Operands: 0x108(%rsp),   ---> Effective Address = 0x7fffffffdb28%rax
+<------ LOAD OPERATION ------>
+---------------------------------------

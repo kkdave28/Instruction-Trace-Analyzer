@@ -9,6 +9,7 @@ def filter(input_file, output_file):
     lsfile = open(load_store_file, "w")
     output_tuple=("Address", "L/S", "Inst#")
     lsfile.write('{0:<10} {1:>16} {2:>10}\n'.format(*output_tuple))
+    is_crashing_inst = False
     while(True):
         line = input_file.readline()
         IsMemAcess = False
@@ -21,10 +22,17 @@ def filter(input_file, output_file):
             main_list = line.split()
             register_dict = {}
             for i in range(0,24):
+                if is_crashing_inst:
+                    break
                 line = input_file.readline()
                 temp_list = line.split()
+                if i == 0 and temp_list[0] != "rax":
+                    is_crashing_inst = True
                 register_dict[temp_list[0]] = temp_list[1]
             #print(main_list)
+            if is_crashing_inst:
+                output_file.write("***CRASHED***\nLast Instruction is :" + main_list[0])
+                break
             main_list.pop(0)
             if(len(main_list)<=0):
                 continue
@@ -42,8 +50,11 @@ def filter(input_file, output_file):
                         main_list.pop(0)
                         main_list.insert(0, concat)
                 op_index = 0
+                output_file.write("Operands: ")
                 for operand in main_list:
-                    output_file.write("Operand #"+ str(op_index)+": "+operand)
+                    output_file.write(operand)
+                    if(op_index == 0 and len(main_list) > 1):
+                        output_file.write(", ")
                     if(op_index == 0):
                         if(operand[0] == '-' or operand[0] == '0' or operand[0] == "*"):
                             operand = operand.replace("%","")
@@ -118,24 +129,27 @@ def filter(input_file, output_file):
                             else:
                                 effective_address = operand[0]
                                 output_file.write("  ---> Effective Address = "+operand[0])
-                    output_file.write("\n")
                     op_index+=1
+                output_file.write("\n")
             else:
                 output_file.write("NO ARGS\n")
             if(IsMemAcess == True):
-                output_file.write("***** MEMORY ACCESS *****\n")
                 if(memacctype == 0  and isLoadStore(instruction)):
                     output_file.write("<------ LOAD OPERATION ------>\n")
-                    output_tuple = (hex(effective_address), "LOAD", str(index))
+                    if isinstance(effective_address, str):
+                        output_tuple = (effective_address, "LOAD", str(index)) 
+                    else:
+                        output_tuple = (hex(effective_address), "LOAD", str(index))
                     #lsfile.write(hex(effective_address) + "                    "+"LOAD"+"                    "+str(index)+"\n")
                     lsfile.write('{0:<10} {1:>13} {2:>10}\n'.format(*output_tuple))
                 elif(memacctype == 1  and isLoadStore(instruction)):
                     output_file.write("<------ STORE OPERATION ------>\n")
-                    output_tuple = (hex(effective_address), "STORE", str(index))
+                    if isinstance(effective_address, str):
+                        output_tuple = (effective_address, "STORE", str(index)) 
+                    else:
+                        output_tuple = (hex(effective_address), "STORE", str(index))
                     #lsfile.write(hex(effective_address) + "                    "+"LOAD"+"                    "+str(index)+"\n")
                     lsfile.write('{0:<10} {1:>13} {2:>10}\n'.format(*output_tuple))
-                else:
-                    output_file.write("<------ BASIC MEMORY ACCESS ------>\n")
             output_file.write("---------------------------------------\n")
             index +=1
     return 0

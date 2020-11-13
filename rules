@@ -1,0 +1,2 @@
+1. flag all read and write instructions that operate on memory address below ($rsp - 0x8) as most likely corrupting because it overwrites the stack canary. (Find a way/value to bypas this).
+2. Take into account the size of chunk written to memory. For example, if an int is written at ($rsp - 0x9) and int is 4 bytes long, it would most likely overwrite stack canary. 

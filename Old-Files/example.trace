@@ -1,0 +1,2923 @@
+Instruction 1: endbr64
+NO ARGS
+---------------------------------------
+Instruction 2: push
+Operand #0: %rbp
+---------------------------------------
+Instruction 3: mov
+Operand #0: %rsp
+Operand #1: %rbp
+---------------------------------------
+Instruction 4: sub
+Operand #0: $0x30
+Operand #1: %rsp
+---------------------------------------
+Instruction 5: mov
+Operand #0: %edi
+Operand #1: -0x24(%rbp)  ---> Effective Address = 0x7fffffffdddc
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 6: mov
+Operand #0: %rsi
+Operand #1: -0x30(%rbp)  ---> Effective Address = 0x7fffffffddd0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 7: mov
+Operand #0: %fs:0x28
+Operand #1: %rax
+---------------------------------------
+Instruction 8: mov
+Operand #0: %rax
+Operand #1: -0x8(%rbp)  ---> Effective Address = 0x7fffffffddf8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 9: xor
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 10: movl
+Operand #0: $0x4
+Operand #1: -0x14(%rbp)  ---> Effective Address = 0x7fffffffddec
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 11: lea
+Operand #0: -0x10(%rbp)  ---> Effective Address = 0x7fffffffddf0
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 12: add
+Operand #0: $0x7
+Operand #1: %rax
+---------------------------------------
+Instruction 13: lea
+Operand #0: -0x14(%rbp)  ---> Effective Address = 0x7fffffffddec
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 14: mov
+Operand #0: $0x4
+Operand #1: %edx
+---------------------------------------
+Instruction 15: mov
+Operand #0: %rcx
+Operand #1: %rsi
+---------------------------------------
+Instruction 16: mov
+Operand #0: %rax
+Operand #1: %rdi
+---------------------------------------
+Instruction 17: callq
+Operand #0: 0x555555555070  ---> Effective Address = 0x555555555070
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 18: endbr64
+NO ARGS
+---------------------------------------
+Instruction 19: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 20: endbr64
+NO ARGS
+---------------------------------------
+Instruction 21: mov
+Operand #0: %rdi
+Operand #1: %rax
+---------------------------------------
+Instruction 22: cmp
+Operand #0: $0x20
+Operand #1: %rdx
+---------------------------------------
+Instruction 23: jb
+Operand #0: 0x7ffff7f496c6  ---> Effective Address = 0x7ffff7f496c6
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 24: cmp
+Operand #0: $0x10
+Operand #1: %dl
+---------------------------------------
+Instruction 25: jae
+Operand #0: 0x7ffff7f496e2  ---> Effective Address = 0x7ffff7f496e2
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 26: cmp
+Operand #0: $0x8
+Operand #1: %dl
+---------------------------------------
+Instruction 27: jae
+Operand #0: 0x7ffff7f496f7  ---> Effective Address = 0x7ffff7f496f7
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 28: cmp
+Operand #0: $0x4
+Operand #1: %dl
+---------------------------------------
+Instruction 29: jae
+Operand #0: 0x7ffff7f49708  ---> Effective Address = 0x7ffff7f49708
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 30: mov
+Operand #0: -0x4(%rsi,%rdx,1)  ---> Effective Address = 0x7fffffffdde8
+Operand #1: %ecx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 31: mov
+Operand #0: (%rsi)  ---> Effective Address = 0x4
+Operand #1: %esi
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 32: mov
+Operand #0: %ecx
+Operand #1: -0x4(%rdi,%rdx,1)  ---> Effective Address = 0x7fffffffddf7
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 33: mov
+Operand #0: %esi
+Operand #1: (%rdi)
+---------------------------------------
+Instruction 34: retq
+NO ARGS
+---------------------------------------
+Instruction 35: mov
+Operand #0: $0x0
+Operand #1: %eax
+---------------------------------------
+Instruction 36: mov
+Operand #0: -0x8(%rbp)  ---> Effective Address = 0x7fffffffddf8
+Operand #1: %rdx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 37: xor
+Operand #0: %fs:0x28
+Operand #1: %rdx
+---------------------------------------
+Instruction 38: je
+Operand #0: 0x5555555551c7  ---> Effective Address = 0x5555555551c7
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 39: callq
+Operand #0: 0x555555555060  ---> Effective Address = 0x555555555060
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 40: endbr64
+NO ARGS
+---------------------------------------
+Instruction 41: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 42: endbr64
+NO ARGS
+---------------------------------------
+Instruction 43: push
+Operand #0: %rax
+---------------------------------------
+Instruction 44: pop
+Operand #0: %rax
+---------------------------------------
+Instruction 45: lea
+Operand #0: 0x87557(%rip)  ---> Effective Address = 0x7ffff7f75064
+Operand #1: %rdi
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 46: sub
+Operand #0: $0x8
+Operand #1: %rsp
+---------------------------------------
+Instruction 47: callq
+Operand #0: 0x7ffff7eedb20  ---> Effective Address = 0x7ffff7eedb20
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 48: endbr64
+NO ARGS
+---------------------------------------
+Instruction 49: push
+Operand #0: %rbp
+---------------------------------------
+Instruction 50: lea
+Operand #0: 0x87550(%rip)  ---> Effective Address = 0x7ffff7f7507c
+Operand #1: %rbp
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 51: push
+Operand #0: %rbx
+---------------------------------------
+Instruction 52: mov
+Operand #0: %rdi
+Operand #1: %rbx
+---------------------------------------
+Instruction 53: sub
+Operand #0: $0x8
+Operand #1: %rsp
+---------------------------------------
+Instruction 54: nopl
+Operand #0: 0x0(%rax)  ---> Effective Address = 0x0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 55: mov
+Operand #0: %rbx
+Operand #1: %rdx
+---------------------------------------
+Instruction 56: mov
+Operand #0: %rbp
+Operand #1: %rsi
+---------------------------------------
+Instruction 57: mov
+Operand #0: $0x1
+Operand #1: %edi
+---------------------------------------
+Instruction 58: xor
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 59: callq
+Operand #0: 0x7ffff7e4b150  ---> Effective Address = 0x7ffff7e4b150
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 60: endbr64
+NO ARGS
+---------------------------------------
+Instruction 61: push
+Operand #0: %rbp
+---------------------------------------
+Instruction 62: and
+Operand #0: $0x1
+Operand #1: %edi
+---------------------------------------
+Instruction 63: mov
+Operand #0: %rsp
+Operand #1: %rbp
+---------------------------------------
+Instruction 64: push
+Operand #0: %r15
+---------------------------------------
+Instruction 65: mov
+Operand #0: %edi
+Operand #1: %r15d
+---------------------------------------
+Instruction 66: push
+Operand #0: %r14
+---------------------------------------
+Instruction 67: xor
+Operand #0: %r14d
+Operand #1: %r14d
+---------------------------------------
+Instruction 68: push
+Operand #0: %r13
+---------------------------------------
+Instruction 69: push
+Operand #0: %r12
+---------------------------------------
+Instruction 70: xor
+Operand #0: %r12d
+Operand #1: %r12d
+---------------------------------------
+Instruction 71: push
+Operand #0: %rbx
+---------------------------------------
+Instruction 72: mov
+Operand #0: %rsi
+Operand #1: %rbx
+---------------------------------------
+Instruction 73: sub
+Operand #0: $0x68
+Operand #1: %rsp
+---------------------------------------
+Instruction 74: mov
+Operand #0: %rdx
+Operand #1: -0x50(%rbp)  ---> Effective Address = 0x7fffffffdd40
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 75: mov
+Operand #0: %rcx
+Operand #1: -0x48(%rbp)  ---> Effective Address = 0x7fffffffdd48
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 76: mov
+Operand #0: %r8
+Operand #1: -0x40(%rbp)  ---> Effective Address = 0x7fffffffdd50
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 77: mov
+Operand #0: %r9
+Operand #1: -0x38(%rbp)  ---> Effective Address = 0x7fffffffdd58
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 78: movzbl
+Operand #0: (%rsi)  ---> Effective Address = 0x7ffff7f7507c
+Operand #1: %r13d
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 79: mov
+Operand #0: %fs:0x28
+Operand #1: %rax
+---------------------------------------
+Instruction 80: mov
+Operand #0: %rax
+Operand #1: -0x68(%rbp)  ---> Effective Address = 0x7fffffffdd28
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 81: xor
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 82: lea
+Operand #0: 0x10(%rbp)  ---> Effective Address = 0x7fffffffdda0
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 83: movl
+Operand #0: $0x10
+Operand #1: -0x80(%rbp)  ---> Effective Address = 0x7fffffffdd10
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 84: mov
+Operand #0: %rax
+Operand #1: -0x78(%rbp)  ---> Effective Address = 0x7fffffffdd18
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 85: lea
+Operand #0: -0x60(%rbp)  ---> Effective Address = 0x7fffffffdd30
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 86: mov
+Operand #0: %rax
+Operand #1: -0x70(%rbp)  ---> Effective Address = 0x7fffffffdd20
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 87: test
+Operand #0: %r13b
+Operand #1: %r13b
+---------------------------------------
+Instruction 88: je
+Operand #0: 0x7ffff7e4b3f0  ---> Effective Address = 0x7ffff7e4b3f0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 89: nopw
+Operand #0: 0x0(%rax,%rax,1)  ---> Effective Address = 0x7fffffffdd30
+Operand #1: %rax,1)
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 90: mov
+Operand #0: %r13d
+Operand #1: %edx
+---------------------------------------
+Instruction 91: mov
+Operand #0: %rbx
+Operand #1: %rax
+---------------------------------------
+Instruction 92: jmp
+Operand #0: 0x7ffff7e4b1e5  ---> Effective Address = 0x7ffff7e4b1e5
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 93: cmp
+Operand #0: $0x25
+Operand #1: %dl
+---------------------------------------
+Instruction 94: jne
+Operand #0: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 95: lea
+Operand #0: 0x1(%rax)  ---> Effective Address = 0x7ffff7f7507d
+Operand #1: %rdi
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 96: mov
+Operand #0: $0x25
+Operand #1: %esi
+---------------------------------------
+Instruction 97: callq
+Operand #0: 0x7ffff7de0390  ---> Effective Address = 0x7ffff7de0390
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 98: endbr64
+NO ARGS
+---------------------------------------
+Instruction 99: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 100: endbr64
+NO ARGS
+---------------------------------------
+Instruction 101: mov
+Operand #0: %edi
+Operand #1: %ecx
+---------------------------------------
+Instruction 102: vmovd
+Operand #0: %esi
+Operand #1: %xmm0
+---------------------------------------
+Instruction 103: vpxor
+Operand #0: %xmm9
+Operand #1: %xmm9,%xmm9
+---------------------------------------
+Instruction 104: vpbroadcastb
+Operand #0: %xmm0
+Operand #1: %ymm0
+---------------------------------------
+Instruction 105: and
+Operand #0: $0x3f
+Operand #1: %ecx
+---------------------------------------
+Instruction 106: cmp
+Operand #0: $0x20
+Operand #1: %ecx
+---------------------------------------
+Instruction 107: ja
+Operand #0: 0x7ffff7f462f0  ---> Effective Address = 0x7ffff7f462f0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 108: and
+Operand #0: $0x1f
+Operand #1: %ecx
+---------------------------------------
+Instruction 109: and
+Operand #0: $0xffffffffffffffe0
+Operand #1: %rdi
+---------------------------------------
+Instruction 110: vmovdqu
+Operand #0: (%rdi)  ---> Effective Address = 0x7ffff7f75060
+Operand #1: %ymm8
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 111: vpcmpeqb
+Operand #0: %ymm8
+Operand #1: %ymm0,%ymm1
+---------------------------------------
+Instruction 112: vpcmpeqb
+Operand #0: %ymm8
+Operand #1: %ymm9,%ymm2
+---------------------------------------
+Instruction 113: vpor
+Operand #0: %ymm1
+Operand #1: %ymm2,%ymm1
+---------------------------------------
+Instruction 114: vpmovmskb
+Operand #0: %ymm1
+Operand #1: %eax
+---------------------------------------
+Instruction 115: sar
+Operand #0: %cl
+Operand #1: %eax
+---------------------------------------
+Instruction 116: test
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 117: je
+Operand #0: 0x7ffff7f46330  ---> Effective Address = 0x7ffff7f46330
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 118: add
+Operand #0: $0x20
+Operand #1: %rdi
+---------------------------------------
+Instruction 119: vmovdqa
+Operand #0: (%rdi)  ---> Effective Address = 0x7ffff7f75080
+Operand #1: %ymm8
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 120: vpcmpeqb
+Operand #0: %ymm8
+Operand #1: %ymm0,%ymm1
+---------------------------------------
+Instruction 121: vpcmpeqb
+Operand #0: %ymm8
+Operand #1: %ymm9,%ymm2
+---------------------------------------
+Instruction 122: vpor
+Operand #0: %ymm1
+Operand #1: %ymm2,%ymm1
+---------------------------------------
+Instruction 123: vpmovmskb
+Operand #0: %ymm1
+Operand #1: %eax
+---------------------------------------
+Instruction 124: test
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 125: jne
+Operand #0: 0x7ffff7f46430  ---> Effective Address = 0x7ffff7f46430
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 126: tzcnt
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 127: add
+Operand #0: %rdi
+Operand #1: %rax
+---------------------------------------
+Instruction 128: vzeroupper
+NO ARGS
+---------------------------------------
+Instruction 129: retq
+NO ARGS
+---------------------------------------
+Instruction 130: movzbl
+Operand #0: (%rax)  ---> Effective Address = 0x7ffff7f75080
+Operand #1: %edx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 131: test
+Operand #0: %dl
+Operand #1: %dl
+---------------------------------------
+Instruction 132: je
+Operand #0: 0x7ffff7e4b1f0  ---> Effective Address = 0x7ffff7e4b1f0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 133: cmp
+Operand #0: $0x25
+Operand #1: %dl
+---------------------------------------
+Instruction 134: jne
+Operand #0: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 135: cmpb
+Operand #0: $0x73
+Operand #1: 0x1(%rax)  ---> Effective Address = 0x7ffff7f75081
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 136: jne
+Operand #0: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 137: cmp
+Operand #0: $0x25
+Operand #1: %r13b
+---------------------------------------
+Instruction 138: je
+Operand #0: 0x7ffff7e4b258  ---> Effective Address = 0x7ffff7e4b258
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 139: mov
+Operand #0: %rax
+Operand #1: %r8
+---------------------------------------
+Instruction 140: mov
+Operand #0: %rbx
+Operand #1: %rcx
+---------------------------------------
+Instruction 141: sub
+Operand #0: %rbx
+Operand #1: %r8
+---------------------------------------
+Instruction 142: mov
+Operand #0: %rax
+Operand #1: %rbx
+---------------------------------------
+Instruction 143: mov
+Operand #0: %rsp
+Operand #1: %rax
+---------------------------------------
+Instruction 144: cmp
+Operand #0: %rax
+Operand #1: %rsp
+---------------------------------------
+Instruction 145: je
+Operand #0: 0x7ffff7e4b21f  ---> Effective Address = 0x7ffff7e4b21f
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 146: sub
+Operand #0: $0x20
+Operand #1: %rsp
+---------------------------------------
+Instruction 147: orq
+Operand #0: $0x0
+Operand #1: 0x18(%rsp)  ---> Effective Address = 0x7fffffffdcf8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 148: lea
+Operand #0: 0xf(%rsp)  ---> Effective Address = 0x7fffffffdcef
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 149: lea
+Operand #0: 0x1(%r14)  ---> Effective Address = 0x1
+Operand #1: %edx
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 150: and
+Operand #0: $0xfffffffffffffff0
+Operand #1: %rax
+---------------------------------------
+Instruction 151: mov
+Operand #0: %rcx
+Operand #1: (%rax)
+---------------------------------------
+Instruction 152: mov
+Operand #0: %r8
+Operand #1: 0x8(%rax)  ---> Effective Address = 0x7fffffffdce8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 153: mov
+Operand #0: %r12
+Operand #1: 0x10(%rax)  ---> Effective Address = 0x7fffffffdcf0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 154: movzbl
+Operand #0: (%rbx)  ---> Effective Address = 0x7ffff7f75080
+Operand #1: %r13d
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 155: test
+Operand #0: %r13b
+Operand #1: %r13b
+---------------------------------------
+Instruction 156: je
+Operand #0: 0x7ffff7e4b29b  ---> Effective Address = 0x7ffff7e4b29b
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 157: mov
+Operand #0: %edx
+Operand #1: %r14d
+---------------------------------------
+Instruction 158: mov
+Operand #0: %rax
+Operand #1: %r12
+---------------------------------------
+Instruction 159: jmpq
+Operand #0: 0x7ffff7e4b1c0  ---> Effective Address = 0x7ffff7e4b1c0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 160: mov
+Operand #0: %r13d
+Operand #1: %edx
+---------------------------------------
+Instruction 161: mov
+Operand #0: %rbx
+Operand #1: %rax
+---------------------------------------
+Instruction 162: jmp
+Operand #0: 0x7ffff7e4b1e5  ---> Effective Address = 0x7ffff7e4b1e5
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 163: cmp
+Operand #0: $0x25
+Operand #1: %dl
+---------------------------------------
+Instruction 164: jne
+Operand #0: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 165: cmpb
+Operand #0: $0x73
+Operand #1: 0x1(%rax)  ---> Effective Address = 0x7ffff7f75081
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 166: jne
+Operand #0: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 167: cmp
+Operand #0: $0x25
+Operand #1: %r13b
+---------------------------------------
+Instruction 168: je
+Operand #0: 0x7ffff7e4b258  ---> Effective Address = 0x7ffff7e4b258
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 169: cmpb
+Operand #0: $0x73
+Operand #1: 0x1(%rbx)  ---> Effective Address = 0x7ffff7f75081
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 170: jne
+Operand #0: 0x7ffff7e4b1f6  ---> Effective Address = 0x7ffff7e4b1f6
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 171: mov
+Operand #0: -0x80(%rbp)  ---> Effective Address = 0x7fffffffdd10
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 172: cmp
+Operand #0: $0x2f
+Operand #1: %eax
+---------------------------------------
+Instruction 173: ja
+Operand #0: 0x7ffff7e4b412  ---> Effective Address = 0x7ffff7e4b412
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 174: mov
+Operand #0: %eax
+Operand #1: %edx
+---------------------------------------
+Instruction 175: add
+Operand #0: $0x8
+Operand #1: %eax
+---------------------------------------
+Instruction 176: add
+Operand #0: -0x70(%rbp)  ---> Effective Address = 0x7fffffffdd20
+Operand #1: %rdx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 177: mov
+Operand #0: %eax
+Operand #1: -0x80(%rbp)  ---> Effective Address = 0x7fffffffdd10
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 178: mov
+Operand #0: (%rdx)  ---> Effective Address = 0x7fffffffdd40
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 179: add
+Operand #0: $0x2
+Operand #1: %rbx
+---------------------------------------
+Instruction 180: mov
+Operand #0: %rcx
+Operand #1: %rdi
+---------------------------------------
+Instruction 181: mov
+Operand #0: %rcx
+Operand #1: -0x88(%rbp)  ---> Effective Address = 0x7fffffffdd08
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 182: callq
+Operand #0: 0x7ffff7de0460  ---> Effective Address = 0x7ffff7de0460
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 183: endbr64
+NO ARGS
+---------------------------------------
+Instruction 184: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 185: endbr64
+NO ARGS
+---------------------------------------
+Instruction 186: mov
+Operand #0: %edi
+Operand #1: %ecx
+---------------------------------------
+Instruction 187: mov
+Operand #0: %rdi
+Operand #1: %rdx
+---------------------------------------
+Instruction 188: vpxor
+Operand #0: %xmm0
+Operand #1: %xmm0,%xmm0
+---------------------------------------
+Instruction 189: and
+Operand #0: $0x3f
+Operand #1: %ecx
+---------------------------------------
+Instruction 190: cmp
+Operand #0: $0x20
+Operand #1: %ecx
+---------------------------------------
+Instruction 191: ja
+Operand #0: 0x7ffff7f466a0  ---> Effective Address = 0x7ffff7f466a0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 192: and
+Operand #0: $0x1f
+Operand #1: %ecx
+---------------------------------------
+Instruction 193: and
+Operand #0: $0xffffffffffffffe0
+Operand #1: %rdi
+---------------------------------------
+Instruction 194: vpcmpeqb
+Operand #0: (%rdi)  ---> Effective Address = 0x7ffff7f75060
+Operand #1: %ymm0,%ymm1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 195: vpmovmskb
+Operand #0: %ymm1
+Operand #1: %eax
+---------------------------------------
+Instruction 196: sar
+Operand #0: %cl
+Operand #1: %eax
+---------------------------------------
+Instruction 197: test
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 198: je
+Operand #0: 0x7ffff7f466d0  ---> Effective Address = 0x7ffff7f466d0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 199: tzcnt
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 200: add
+Operand #0: %rdi
+Operand #1: %rax
+---------------------------------------
+Instruction 201: add
+Operand #0: %rcx
+Operand #1: %rax
+---------------------------------------
+Instruction 202: sub
+Operand #0: %rdx
+Operand #1: %rax
+---------------------------------------
+Instruction 203: vzeroupper
+NO ARGS
+---------------------------------------
+Instruction 204: retq
+NO ARGS
+---------------------------------------
+Instruction 205: mov
+Operand #0: -0x88(%rbp)  ---> Effective Address = 0x7fffffffdd08
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 206: mov
+Operand #0: %rax
+Operand #1: %r8
+---------------------------------------
+Instruction 207: jmpq
+Operand #0: 0x7ffff7e4b202  ---> Effective Address = 0x7ffff7e4b202
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 208: mov
+Operand #0: %rsp
+Operand #1: %rax
+---------------------------------------
+Instruction 209: cmp
+Operand #0: %rax
+Operand #1: %rsp
+---------------------------------------
+Instruction 210: je
+Operand #0: 0x7ffff7e4b21f  ---> Effective Address = 0x7ffff7e4b21f
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 211: sub
+Operand #0: $0x20
+Operand #1: %rsp
+---------------------------------------
+Instruction 212: orq
+Operand #0: $0x0
+Operand #1: 0x18(%rsp)  ---> Effective Address = 0x7fffffffdcd8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 213: lea
+Operand #0: 0xf(%rsp)  ---> Effective Address = 0x7fffffffdccf
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 214: lea
+Operand #0: 0x1(%r14)  ---> Effective Address = 0x2
+Operand #1: %edx
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 215: and
+Operand #0: $0xfffffffffffffff0
+Operand #1: %rax
+---------------------------------------
+Instruction 216: mov
+Operand #0: %rcx
+Operand #1: (%rax)
+---------------------------------------
+Instruction 217: mov
+Operand #0: %r8
+Operand #1: 0x8(%rax)  ---> Effective Address = 0x7fffffffdcc8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 218: mov
+Operand #0: %r12
+Operand #1: 0x10(%rax)  ---> Effective Address = 0x7fffffffdcd0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 219: movzbl
+Operand #0: (%rbx)  ---> Effective Address = 0x7ffff7f75082
+Operand #1: %r13d
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 220: test
+Operand #0: %r13b
+Operand #1: %r13b
+---------------------------------------
+Instruction 221: je
+Operand #0: 0x7ffff7e4b29b  ---> Effective Address = 0x7ffff7e4b29b
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 222: mov
+Operand #0: %edx
+Operand #1: %r14d
+---------------------------------------
+Instruction 223: mov
+Operand #0: %rax
+Operand #1: %r12
+---------------------------------------
+Instruction 224: jmpq
+Operand #0: 0x7ffff7e4b1c0  ---> Effective Address = 0x7ffff7e4b1c0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 225: mov
+Operand #0: %r13d
+Operand #1: %edx
+---------------------------------------
+Instruction 226: mov
+Operand #0: %rbx
+Operand #1: %rax
+---------------------------------------
+Instruction 227: jmp
+Operand #0: 0x7ffff7e4b1e5  ---> Effective Address = 0x7ffff7e4b1e5
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 228: cmp
+Operand #0: $0x25
+Operand #1: %dl
+---------------------------------------
+Instruction 229: jne
+Operand #0: 0x7ffff7e4b1d0  ---> Effective Address = 0x7ffff7e4b1d0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 230: lea
+Operand #0: 0x1(%rax)  ---> Effective Address = 0x7ffff7f75083
+Operand #1: %rdi
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 231: mov
+Operand #0: $0x25
+Operand #1: %esi
+---------------------------------------
+Instruction 232: callq
+Operand #0: 0x7ffff7de0390  ---> Effective Address = 0x7ffff7de0390
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 233: endbr64
+NO ARGS
+---------------------------------------
+Instruction 234: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 235: endbr64
+NO ARGS
+---------------------------------------
+Instruction 236: mov
+Operand #0: %edi
+Operand #1: %ecx
+---------------------------------------
+Instruction 237: vmovd
+Operand #0: %esi
+Operand #1: %xmm0
+---------------------------------------
+Instruction 238: vpxor
+Operand #0: %xmm9
+Operand #1: %xmm9,%xmm9
+---------------------------------------
+Instruction 239: vpbroadcastb
+Operand #0: %xmm0
+Operand #1: %ymm0
+---------------------------------------
+Instruction 240: and
+Operand #0: $0x3f
+Operand #1: %ecx
+---------------------------------------
+Instruction 241: cmp
+Operand #0: $0x20
+Operand #1: %ecx
+---------------------------------------
+Instruction 242: ja
+Operand #0: 0x7ffff7f462f0  ---> Effective Address = 0x7ffff7f462f0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 243: vmovdqu
+Operand #0: (%rdi)  ---> Effective Address = 0x7ffff7f75083
+Operand #1: %ymm8
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 244: vpcmpeqb
+Operand #0: %ymm8
+Operand #1: %ymm0,%ymm1
+---------------------------------------
+Instruction 245: vpcmpeqb
+Operand #0: %ymm8
+Operand #1: %ymm9,%ymm2
+---------------------------------------
+Instruction 246: vpor
+Operand #0: %ymm1
+Operand #1: %ymm2,%ymm1
+---------------------------------------
+Instruction 247: vpmovmskb
+Operand #0: %ymm1
+Operand #1: %eax
+---------------------------------------
+Instruction 248: test
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 249: jne
+Operand #0: 0x7ffff7f46430  ---> Effective Address = 0x7ffff7f46430
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 250: tzcnt
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 251: add
+Operand #0: %rdi
+Operand #1: %rax
+---------------------------------------
+Instruction 252: vzeroupper
+NO ARGS
+---------------------------------------
+Instruction 253: retq
+NO ARGS
+---------------------------------------
+Instruction 254: movzbl
+Operand #0: (%rax)  ---> Effective Address = 0x7ffff7f75093
+Operand #1: %edx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 255: test
+Operand #0: %dl
+Operand #1: %dl
+---------------------------------------
+Instruction 256: je
+Operand #0: 0x7ffff7e4b1f0  ---> Effective Address = 0x7ffff7e4b1f0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 257: cmp
+Operand #0: $0x25
+Operand #1: %r13b
+---------------------------------------
+Instruction 258: je
+Operand #0: 0x7ffff7e4b258  ---> Effective Address = 0x7ffff7e4b258
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 259: mov
+Operand #0: %rax
+Operand #1: %r8
+---------------------------------------
+Instruction 260: mov
+Operand #0: %rbx
+Operand #1: %rcx
+---------------------------------------
+Instruction 261: sub
+Operand #0: %rbx
+Operand #1: %r8
+---------------------------------------
+Instruction 262: mov
+Operand #0: %rax
+Operand #1: %rbx
+---------------------------------------
+Instruction 263: mov
+Operand #0: %rsp
+Operand #1: %rax
+---------------------------------------
+Instruction 264: cmp
+Operand #0: %rax
+Operand #1: %rsp
+---------------------------------------
+Instruction 265: je
+Operand #0: 0x7ffff7e4b21f  ---> Effective Address = 0x7ffff7e4b21f
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 266: sub
+Operand #0: $0x20
+Operand #1: %rsp
+---------------------------------------
+Instruction 267: orq
+Operand #0: $0x0
+Operand #1: 0x18(%rsp)  ---> Effective Address = 0x7fffffffdcb8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 268: lea
+Operand #0: 0xf(%rsp)  ---> Effective Address = 0x7fffffffdcaf
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 269: lea
+Operand #0: 0x1(%r14)  ---> Effective Address = 0x3
+Operand #1: %edx
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 270: and
+Operand #0: $0xfffffffffffffff0
+Operand #1: %rax
+---------------------------------------
+Instruction 271: mov
+Operand #0: %rcx
+Operand #1: (%rax)
+---------------------------------------
+Instruction 272: mov
+Operand #0: %r8
+Operand #1: 0x8(%rax)  ---> Effective Address = 0x7fffffffdca8
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 273: mov
+Operand #0: %r12
+Operand #1: 0x10(%rax)  ---> Effective Address = 0x7fffffffdcb0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 274: movzbl
+Operand #0: (%rbx)  ---> Effective Address = 0x7ffff7f75093
+Operand #1: %r13d
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 275: test
+Operand #0: %r13b
+Operand #1: %r13b
+---------------------------------------
+Instruction 276: je
+Operand #0: 0x7ffff7e4b29b  ---> Effective Address = 0x7ffff7e4b29b
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 277: movslq
+Operand #0: %edx
+Operand #1: %rdx
+---------------------------------------
+Instruction 278: mov
+Operand #0: %rsp
+Operand #1: %rbx
+---------------------------------------
+Instruction 279: mov
+Operand #0: %rdx
+Operand #1: %rax
+---------------------------------------
+Instruction 280: shl
+Operand #0: $0x4
+Operand #1: %rax
+---------------------------------------
+Instruction 281: add
+Operand #0: $0x10
+Operand #1: %rax
+---------------------------------------
+Instruction 282: mov
+Operand #0: %rax
+Operand #1: %rsi
+---------------------------------------
+Instruction 283: and
+Operand #0: $0xfffffffffffff000
+Operand #1: %rsi
+---------------------------------------
+Instruction 284: sub
+Operand #0: %rsi
+Operand #1: %rbx
+---------------------------------------
+Instruction 285: mov
+Operand #0: %rbx
+Operand #1: %rsi
+---------------------------------------
+Instruction 286: cmp
+Operand #0: %rsi
+Operand #1: %rsp
+---------------------------------------
+Instruction 287: je
+Operand #0: 0x7ffff7e4b2d6  ---> Effective Address = 0x7ffff7e4b2d6
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 288: and
+Operand #0: $0xfff
+Operand #1: %eax
+---------------------------------------
+Instruction 289: sub
+Operand #0: %rax
+Operand #1: %rsp
+---------------------------------------
+Instruction 290: test
+Operand #0: %rax
+Operand #1: %rax
+---------------------------------------
+Instruction 291: jne
+Operand #0: 0x7ffff7e4b423  ---> Effective Address = 0x7ffff7e4b423
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 292: orq
+Operand #0: $0x0
+Operand #1: -0x8(%rsp,%rax,1)  ---> Effective Address = 0x7fffffffdc98
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 293: jmpq
+Operand #0: 0x7ffff7e4b2e7  ---> Effective Address = 0x7ffff7e4b2e7
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 294: movslq
+Operand #0: %r14d
+Operand #1: %r13
+---------------------------------------
+Instruction 295: lea
+Operand #0: 0xf(%rsp)  ---> Effective Address = 0x7fffffffdc6f
+Operand #1: %rbx
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 296: mov
+Operand #0: %r13
+Operand #1: %rsi
+---------------------------------------
+Instruction 297: and
+Operand #0: $0xfffffffffffffff0
+Operand #1: %rbx
+---------------------------------------
+Instruction 298: shl
+Operand #0: $0x4
+Operand #1: %rsi
+---------------------------------------
+Instruction 299: lea
+Operand #0: (%rbx,%rsi,1)  ---> Effective Address = 0x7fffffffdc80
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 300: mov
+Operand #0: %rcx
+Operand #1: (%rax)
+---------------------------------------
+Instruction 301: mov
+Operand #0: %r8
+Operand #1: 0x8(%rax)  ---> Effective Address = 0x7fffffffdc88
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 302: test
+Operand #0: %r14d
+Operand #1: %r14d
+---------------------------------------
+Instruction 303: je
+Operand #0: 0x7ffff7e4b33b  ---> Effective Address = 0x7ffff7e4b33b
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 304: lea
+Operand #0: -0x1(%r14)  ---> Effective Address = 0x1
+Operand #1: %ecx
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 305: lea
+Operand #0: -0x10(%rbx,%rsi,1)  ---> Effective Address = 0x7fffffffdc50
+Operand #1: %rdi
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 306: shl
+Operand #0: $0x4
+Operand #1: %rcx
+---------------------------------------
+Instruction 307: sub
+Operand #0: %rcx
+Operand #1: %rdi
+---------------------------------------
+Instruction 308: mov
+Operand #0: 0x8(%r12)  ---> Effective Address = 0x7fffffffdcc8
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 309: mov
+Operand #0: (%r12)  ---> Effective Address = 0x7fffffffdcc0
+Operand #1: %rsi
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 310: sub
+Operand #0: $0x10
+Operand #1: %rax
+---------------------------------------
+Instruction 311: mov
+Operand #0: 0x10(%r12)  ---> Effective Address = 0x7fffffffdcf0
+Operand #1: %r12
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 312: add
+Operand #0: %rcx
+Operand #1: %r8
+---------------------------------------
+Instruction 313: mov
+Operand #0: %rsi
+Operand #1: (%rax)
+---------------------------------------
+Instruction 314: mov
+Operand #0: %rcx
+Operand #1: 0x8(%rax)  ---> Effective Address = 0x7fffffffdc78
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 315: cmp
+Operand #0: %rax
+Operand #1: %rdi
+---------------------------------------
+Instruction 316: jne
+Operand #0: 0x7ffff7e4b31a  ---> Effective Address = 0x7ffff7e4b31a
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 317: mov
+Operand #0: 0x8(%r12)  ---> Effective Address = 0x7fffffffdce8
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 318: mov
+Operand #0: (%r12)  ---> Effective Address = 0x7fffffffdce0
+Operand #1: %rsi
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 319: sub
+Operand #0: $0x10
+Operand #1: %rax
+---------------------------------------
+Instruction 320: mov
+Operand #0: 0x10(%r12)  ---> Effective Address = 0x10
+Operand #1: %r12
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 321: add
+Operand #0: %rcx
+Operand #1: %r8
+---------------------------------------
+Instruction 322: mov
+Operand #0: %rsi
+Operand #1: (%rax)
+---------------------------------------
+Instruction 323: mov
+Operand #0: %rcx
+Operand #1: 0x8(%rax)  ---> Effective Address = 0x7fffffffdc68
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 324: cmp
+Operand #0: %rax
+Operand #1: %rdi
+---------------------------------------
+Instruction 325: jne
+Operand #0: 0x7ffff7e4b31a  ---> Effective Address = 0x7ffff7e4b31a
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 326: mov
+Operand #0: $0x14
+Operand #1: %r9d
+---------------------------------------
+Instruction 327: nopl
+Operand #0: 0x0(%rax)  ---> Effective Address = 0x7fffffffdc60
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 328: mov
+Operand #0: %rbx
+Operand #1: %rsi
+---------------------------------------
+Instruction 329: mov
+Operand #0: $0x2
+Operand #1: %edi
+---------------------------------------
+Instruction 330: mov
+Operand #0: %r9d
+Operand #1: %eax
+---------------------------------------
+Instruction 331: syscall
+NO ARGS
+---------------------------------------
+Instruction 332: cmp
+Operand #0: $0xfffffffffffffffc
+Operand #1: %rax
+---------------------------------------
+Instruction 333: je
+Operand #0: 0x7ffff7e4b348  ---> Effective Address = 0x7ffff7e4b348
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 334: test
+Operand #0: %r15d
+Operand #1: %r15d
+---------------------------------------
+Instruction 335: je
+Operand #0: 0x7ffff7e4b3f4  ---> Effective Address = 0x7ffff7e4b3f4
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 336: xor
+Operand #0: %r9d
+Operand #1: %r9d
+---------------------------------------
+Instruction 337: mov
+Operand #0: $0x22
+Operand #1: %ecx
+---------------------------------------
+Instruction 338: mov
+Operand #0: $0x3
+Operand #1: %edx
+---------------------------------------
+Instruction 339: xor
+Operand #0: %edi
+Operand #1: %edi
+---------------------------------------
+Instruction 340: mov
+Operand #0: 0x15aae6(%rip)  ---> Effective Address = 0x7ffff7fa5e60
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 341: mov
+Operand #0: 0x18(%rax)  ---> Effective Address = 0x1018
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 342: add
+Operand #0: %rax
+Operand #1: %r8
+---------------------------------------
+Instruction 343: neg
+Operand #0: %rax
+---------------------------------------
+Instruction 344: and
+Operand #0: %rax
+Operand #1: %r8
+---------------------------------------
+Instruction 345: mov
+Operand #0: %r8
+Operand #1: %r12
+---------------------------------------
+Instruction 346: mov
+Operand #0: $0xffffffff
+Operand #1: %r8d
+---------------------------------------
+Instruction 347: mov
+Operand #0: %r12
+Operand #1: %rsi
+---------------------------------------
+Instruction 348: callq
+Operand #0: 0x7ffff7ed6a20  ---> Effective Address = 0x7ffff7ed6a20
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 349: endbr64
+NO ARGS
+---------------------------------------
+Instruction 350: test
+Operand #0: $0xfff
+Operand #1: %r9d
+---------------------------------------
+Instruction 351: jne
+Operand #0: 0x7ffff7ed6a58  ---> Effective Address = 0x7ffff7ed6a58
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 352: push
+Operand #0: %rbp
+---------------------------------------
+Instruction 353: mov
+Operand #0: %rdi
+Operand #1: %rbp
+---------------------------------------
+Instruction 354: push
+Operand #0: %rbx
+---------------------------------------
+Instruction 355: mov
+Operand #0: %ecx
+Operand #1: %ebx
+---------------------------------------
+Instruction 356: test
+Operand #0: %rdi
+Operand #1: %rdi
+---------------------------------------
+Instruction 357: je
+Operand #0: 0x7ffff7ed6a70  ---> Effective Address = 0x7ffff7ed6a70
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 358: test
+Operand #0: $0x4
+Operand #1: %dl
+---------------------------------------
+Instruction 359: je
+Operand #0: 0x7ffff7ed6a39  ---> Effective Address = 0x7ffff7ed6a39
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 360: mov
+Operand #0: %ebx
+Operand #1: %r10d
+---------------------------------------
+Instruction 361: mov
+Operand #0: %rbp
+Operand #1: %rdi
+---------------------------------------
+Instruction 362: mov
+Operand #0: $0x9
+Operand #1: %eax
+---------------------------------------
+Instruction 363: syscall
+NO ARGS
+---------------------------------------
+Instruction 364: cmp
+Operand #0: $0xfffffffffffff000
+Operand #1: %rax
+---------------------------------------
+Instruction 365: ja
+Operand #0: 0x7ffff7ed6ab0  ---> Effective Address = 0x7ffff7ed6ab0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 366: pop
+Operand #0: %rbx
+---------------------------------------
+Instruction 367: pop
+Operand #0: %rbp
+---------------------------------------
+Instruction 368: retq
+NO ARGS
+---------------------------------------
+Instruction 369: mov
+Operand #0: %rax
+Operand #1: %r14
+---------------------------------------
+Instruction 370: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 371: je
+Operand #0: 0x7ffff7e4b3e9  ---> Effective Address = 0x7ffff7e4b3e9
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 372: shl
+Operand #0: $0x4
+Operand #1: %r13
+---------------------------------------
+Instruction 373: mov
+Operand #0: %r12d
+Operand #1: (%rax)
+---------------------------------------
+Instruction 374: lea
+Operand #0: 0x4(%rax)  ---> Effective Address = 0x7ffff7ffb004
+Operand #1: %rdi
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 375: lea
+Operand #0: 0x10(%rbx,%r13,1)  ---> Effective Address = 0x7fffffffdc70
+Operand #1: %r12
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 376: nopl
+Operand #0: 0x0(%rax)  ---> Effective Address = 0x7ffff7ffb000
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 377: mov
+Operand #0: 0x8(%rbx)  ---> Effective Address = 0x7fffffffdc68
+Operand #1: %rdx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 378: mov
+Operand #0: (%rbx)  ---> Effective Address = 0x7fffffffdc60
+Operand #1: %rsi
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 379: add
+Operand #0: $0x10
+Operand #1: %rbx
+---------------------------------------
+Instruction 380: callq
+Operand #0: 0x7ffff7de05a0  ---> Effective Address = 0x7ffff7de05a0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 381: endbr64
+NO ARGS
+---------------------------------------
+Instruction 382: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 383: endbr64
+NO ARGS
+---------------------------------------
+Instruction 384: mov
+Operand #0: %rdi
+Operand #1: %rax
+---------------------------------------
+Instruction 385: add
+Operand #0: %rdx
+Operand #1: %rax
+---------------------------------------
+Instruction 386: jmp
+Operand #0: 0x7ffff7f49677  ---> Effective Address = 0x7ffff7f49677
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 387: cmp
+Operand #0: $0x20
+Operand #1: %rdx
+---------------------------------------
+Instruction 388: jb
+Operand #0: 0x7ffff7f496c6  ---> Effective Address = 0x7ffff7f496c6
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 389: cmp
+Operand #0: $0x10
+Operand #1: %dl
+---------------------------------------
+Instruction 390: jae
+Operand #0: 0x7ffff7f496e2  ---> Effective Address = 0x7ffff7f496e2
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 391: cmp
+Operand #0: $0x8
+Operand #1: %dl
+---------------------------------------
+Instruction 392: jae
+Operand #0: 0x7ffff7f496f7  ---> Effective Address = 0x7ffff7f496f7
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 393: cmp
+Operand #0: $0x4
+Operand #1: %dl
+---------------------------------------
+Instruction 394: jae
+Operand #0: 0x7ffff7f49708  ---> Effective Address = 0x7ffff7f49708
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 395: mov
+Operand #0: -0x4(%rsi,%rdx,1)  ---> Effective Address = 0x7ffff7f75078
+Operand #1: %ecx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 396: mov
+Operand #0: (%rsi)  ---> Effective Address = 0x202a2a2a
+Operand #1: %esi
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 397: mov
+Operand #0: %ecx
+Operand #1: -0x4(%rdi,%rdx,1)  ---> Effective Address = 0x7ffff7ffb004
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 398: mov
+Operand #0: %esi
+Operand #1: (%rdi)
+---------------------------------------
+Instruction 399: retq
+NO ARGS
+---------------------------------------
+Instruction 400: mov
+Operand #0: %rax
+Operand #1: %rdi
+---------------------------------------
+Instruction 401: cmp
+Operand #0: %r12
+Operand #1: %rbx
+---------------------------------------
+Instruction 402: jne
+Operand #0: 0x7ffff7e4b3b8  ---> Effective Address = 0x7ffff7e4b3b8
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 403: mov
+Operand #0: 0x8(%rbx)  ---> Effective Address = 0x7fffffffdc78
+Operand #1: %rdx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 404: mov
+Operand #0: (%rbx)  ---> Effective Address = 0x7fffffffdc70
+Operand #1: %rsi
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 405: add
+Operand #0: $0x10
+Operand #1: %rbx
+---------------------------------------
+Instruction 406: callq
+Operand #0: 0x7ffff7de05a0  ---> Effective Address = 0x7ffff7de05a0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 407: endbr64
+NO ARGS
+---------------------------------------
+Instruction 408: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 409: endbr64
+NO ARGS
+---------------------------------------
+Instruction 410: mov
+Operand #0: %rdi
+Operand #1: %rax
+---------------------------------------
+Instruction 411: add
+Operand #0: %rdx
+Operand #1: %rax
+---------------------------------------
+Instruction 412: jmp
+Operand #0: 0x7ffff7f49677  ---> Effective Address = 0x7ffff7f49677
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 413: cmp
+Operand #0: $0x20
+Operand #1: %rdx
+---------------------------------------
+Instruction 414: jb
+Operand #0: 0x7ffff7f496c6  ---> Effective Address = 0x7ffff7f496c6
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 415: cmp
+Operand #0: $0x10
+Operand #1: %dl
+---------------------------------------
+Instruction 416: jae
+Operand #0: 0x7ffff7f496e2  ---> Effective Address = 0x7ffff7f496e2
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 417: vmovdqu
+Operand #0: (%rsi)  ---> Effective Address = 0x7ffff7f75064
+Operand #1: %xmm0
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 418: vmovdqu
+Operand #0: -0x10(%rsi,%rdx,1)  ---> Effective Address = 0x7ffff7f75054
+Operand #1: %xmm1
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 419: vmovdqu
+Operand #0: %xmm0
+Operand #1: (%rdi)
+---------------------------------------
+Instruction 420: vmovdqu
+Operand #0: %xmm1
+Operand #1: -0x10(%rdi,%rdx,1)  ---> Effective Address = 0x7ffff7ffb00f
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 421: retq
+NO ARGS
+---------------------------------------
+Instruction 422: mov
+Operand #0: %rax
+Operand #1: %rdi
+---------------------------------------
+Instruction 423: cmp
+Operand #0: %r12
+Operand #1: %rbx
+---------------------------------------
+Instruction 424: jne
+Operand #0: 0x7ffff7e4b3b8  ---> Effective Address = 0x7ffff7e4b3b8
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 425: mov
+Operand #0: 0x8(%rbx)  ---> Effective Address = 0x7fffffffdc88
+Operand #1: %rdx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 426: mov
+Operand #0: (%rbx)  ---> Effective Address = 0x7fffffffdc80
+Operand #1: %rsi
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 427: add
+Operand #0: $0x10
+Operand #1: %rbx
+---------------------------------------
+Instruction 428: callq
+Operand #0: 0x7ffff7de05a0  ---> Effective Address = 0x7ffff7de05a0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 429: endbr64
+NO ARGS
+---------------------------------------
+Instruction 430: bnd
+Operand #0: jmpq
+---------------------------------------
+Instruction 431: endbr64
+NO ARGS
+---------------------------------------
+Instruction 432: mov
+Operand #0: %rdi
+Operand #1: %rax
+---------------------------------------
+Instruction 433: add
+Operand #0: %rdx
+Operand #1: %rax
+---------------------------------------
+Instruction 434: jmp
+Operand #0: 0x7ffff7f49677  ---> Effective Address = 0x7ffff7f49677
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 435: cmp
+Operand #0: $0x20
+Operand #1: %rdx
+---------------------------------------
+Instruction 436: jb
+Operand #0: 0x7ffff7f496c6  ---> Effective Address = 0x7ffff7f496c6
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 437: cmp
+Operand #0: $0x10
+Operand #1: %dl
+---------------------------------------
+Instruction 438: jae
+Operand #0: 0x7ffff7f496e2  ---> Effective Address = 0x7ffff7f496e2
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 439: vmovdqu
+Operand #0: (%rsi)  ---> Effective Address = 0x7ffff7f75082
+Operand #1: %xmm0
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 440: vmovdqu
+Operand #0: -0x10(%rsi,%rdx,1)  ---> Effective Address = 0x7ffff7f75072
+Operand #1: %xmm1
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 441: vmovdqu
+Operand #0: %xmm0
+Operand #1: (%rdi)
+---------------------------------------
+Instruction 442: vmovdqu
+Operand #0: %xmm1
+Operand #1: -0x10(%rdi,%rdx,1)  ---> Effective Address = 0x7ffff7ffb020
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 443: retq
+NO ARGS
+---------------------------------------
+Instruction 444: mov
+Operand #0: %rax
+Operand #1: %rdi
+---------------------------------------
+Instruction 445: cmp
+Operand #0: %r12
+Operand #1: %rbx
+---------------------------------------
+Instruction 446: jne
+Operand #0: 0x7ffff7e4b3b8  ---> Effective Address = 0x7ffff7e4b3b8
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 447: movb
+Operand #0: $0x0
+Operand #1: (%rax)
+---------------------------------------
+Instruction 448: mov
+Operand #0: %r14
+Operand #1: %rdi
+---------------------------------------
+Instruction 449: xchg
+Operand #0: %rdi
+Operand #1: 0x15d543(%rip)  ---> Effective Address = 0x7ffff7fa8920
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 450: test
+Operand #0: %rdi
+Operand #1: %rdi
+---------------------------------------
+Instruction 451: je
+Operand #0: 0x7ffff7e4b3e9  ---> Effective Address = 0x7ffff7e4b3e9
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 452: callq
+Operand #0: 0x7ffff7de072e  ---> Effective Address = 0x7ffff7de072e
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 453: endbr64
+NO ARGS
+---------------------------------------
+Instruction 454: push
+Operand #0: %rbx
+---------------------------------------
+Instruction 455: mov
+Operand #0: %fs:0x10
+Operand #1: %rbx
+---------------------------------------
+Instruction 456: sub
+Operand #0: $0x120
+Operand #1: %rsp
+---------------------------------------
+Instruction 457: mov
+Operand #0: %fs:0x28
+Operand #1: %rax
+---------------------------------------
+Instruction 458: mov
+Operand #0: %rax
+Operand #1: 0x118(%rsp)  ---> Effective Address = 0x7fffffffdc48
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 459: xor
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 460: cmp
+Operand #0: %rbx
+Operand #1: 0x1c81db(%rip)  ---> Effective Address = 0x7ffff7fa8938
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 461: je
+Operand #0: 0x7ffff7de079d  ---> Effective Address = 0x7ffff7de079d
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 462: mov
+Operand #0: %fs:0x18
+Operand #1: %eax
+---------------------------------------
+Instruction 463: test
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 464: jne
+Operand #0: 0x7ffff7de0779  ---> Effective Address = 0x7ffff7de0779
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 465: mov
+Operand #0: $0x1
+Operand #1: %edx
+---------------------------------------
+Instruction 466: cmpxchg
+Operand #0: %edx
+Operand #1: 0x1c81b9(%rip)  ---> Effective Address = 0x7ffff7fa8930
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 467: jmp
+Operand #0: 0x7ffff7de0796  ---> Effective Address = 0x7ffff7de0796
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 468: mov
+Operand #0: %rbx
+Operand #1: 0x1c819b(%rip)  ---> Effective Address = 0x7ffff7fa8938
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 469: incl
+Operand #0: 0x1c8191(%rip)  ---> Effective Address = 0x7ffff7fa8934
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 470: cmpl
+Operand #0: $0x0
+Operand #1: 0x1c8196(%rip)  ---> Effective Address = 0x7ffff7fa8940
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 471: jne
+Operand #0: 0x7ffff7de07e2  ---> Effective Address = 0x7ffff7de07e2
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 472: movl
+Operand #0: $0x1
+Operand #1: 0x1c818a(%rip)  ---> Effective Address = 0x7ffff7fa8940
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 473: mov
+Operand #0: $0x10
+Operand #1: %eax
+---------------------------------------
+Instruction 474: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 475: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 476: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 477: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 478: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 479: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 480: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 481: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 482: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 483: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 484: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 485: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 486: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 487: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 488: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 489: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 490: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 491: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 492: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 493: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 494: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 495: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 496: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 497: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 498: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 499: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 500: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 501: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 502: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 503: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 504: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 505: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 506: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 507: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 508: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 509: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 510: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 511: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 512: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 513: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 514: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 515: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 516: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 517: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 518: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 519: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 520: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 521: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 522: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 523: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 524: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 525: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 526: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 527: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 528: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 529: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 530: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 531: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 532: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 533: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 534: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 535: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 536: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 537: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 538: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 539: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 540: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 541: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 542: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 543: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 544: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 545: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 546: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 547: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 548: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 549: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 550: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 551: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 552: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 553: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 554: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 555: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 556: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 557: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 558: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 559: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 560: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 561: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 562: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 563: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 564: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 565: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 566: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 567: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 568: movq
+Operand #0: $0x0
+Operand #1: (%rsi,%rax,8)
+---------------------------------------
+Instruction 569: jmp
+Operand #0: 0x7ffff7de07bb  ---> Effective Address = 0x7ffff7de07bb
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 570: dec
+Operand #0: %rax
+---------------------------------------
+Instruction 571: mov
+Operand #0: %rsp
+Operand #1: %rsi
+---------------------------------------
+Instruction 572: cmp
+Operand #0: $0xffffffffffffffff
+Operand #1: %rax
+---------------------------------------
+Instruction 573: je
+Operand #0: 0x7ffff7de07d1  ---> Effective Address = 0x7ffff7de07d1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 574: xor
+Operand #0: %edx
+Operand #1: %edx
+---------------------------------------
+Instruction 575: mov
+Operand #0: $0x1
+Operand #1: %edi
+---------------------------------------
+Instruction 576: orq
+Operand #0: $0x20
+Operand #1: (%rsp)
+---------------------------------------
+Instruction 577: callq
+Operand #0: 0x7ffff7e01440  ---> Effective Address = 0x7ffff7e01440
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 578: endbr64
+NO ARGS
+---------------------------------------
+Instruction 579: sub
+Operand #0: $0x98
+Operand #1: %rsp
+---------------------------------------
+Instruction 580: xor
+Operand #0: %r8d
+Operand #1: %r8d
+---------------------------------------
+Instruction 581: mov
+Operand #0: %fs:0x28
+Operand #1: %rax
+---------------------------------------
+Instruction 582: mov
+Operand #0: %rax
+Operand #1: 0x88(%rsp)  ---> Effective Address = 0x7fffffffdb18
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 583: xor
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 584: test
+Operand #0: %rsi
+Operand #1: %rsi
+---------------------------------------
+Instruction 585: je
+Operand #0: 0x7ffff7e0147b  ---> Effective Address = 0x7ffff7e0147b
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 586: movabs
+Operand #0: $0x180000000
+Operand #1: %rcx
+---------------------------------------
+Instruction 587: mov
+Operand #0: (%rsi)  ---> Effective Address = 0x7fffffffdb30
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 588: test
+Operand #0: %rcx
+Operand #1: %rax
+---------------------------------------
+Instruction 589: jne
+Operand #0: 0x7ffff7e014c0  ---> Effective Address = 0x7ffff7e014c0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 590: mov
+Operand #0: %rsi
+Operand #1: %r8
+---------------------------------------
+Instruction 591: mov
+Operand #0: $0x8
+Operand #1: %r10d
+---------------------------------------
+Instruction 592: mov
+Operand #0: %r8
+Operand #1: %rsi
+---------------------------------------
+Instruction 593: mov
+Operand #0: $0xe
+Operand #1: %eax
+---------------------------------------
+Instruction 594: syscall
+NO ARGS
+---------------------------------------
+Instruction 595: cmp
+Operand #0: $0xfffffffffffff000
+Operand #1: %rax
+---------------------------------------
+Instruction 596: ja
+Operand #0: 0x7ffff7e01530  ---> Effective Address = 0x7ffff7e01530
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 597: mov
+Operand #0: 0x88(%rsp)  ---> Effective Address = 0x7fffffffdb18
+Operand #1: %rcx
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 598: xor
+Operand #0: %fs:0x28
+Operand #1: %rcx
+---------------------------------------
+Instruction 599: jne
+Operand #0: 0x7ffff7e01546  ---> Effective Address = 0x7ffff7e01546
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 600: add
+Operand #0: $0x98
+Operand #1: %rsp
+---------------------------------------
+Instruction 601: retq
+NO ARGS
+---------------------------------------
+Instruction 602: mov
+Operand #0: 0x1c8158(%rip)  ---> Effective Address = 0x7ffff7fa8940
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 603: cmp
+Operand #0: $0x1
+Operand #1: %eax
+---------------------------------------
+Instruction 604: jne
+Operand #0: 0x7ffff7de08b1  ---> Effective Address = 0x7ffff7de08b1
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 605: movl
+Operand #0: $0x0
+Operand #1: 0x1c8145(%rip)  ---> Effective Address = 0x7ffff7fa8940
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 606: mov
+Operand #0: 0x1c8133(%rip)  ---> Effective Address = 0x7ffff7fa8934
+Operand #1: %eax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 607: dec
+Operand #0: %eax
+---------------------------------------
+Instruction 608: mov
+Operand #0: %eax
+Operand #1: 0x1c812b(%rip)  ---> Effective Address = 0x7ffff7fa8934
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 609: jne
+Operand #0: 0x7ffff7de084f  ---> Effective Address = 0x7ffff7de084f
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 610: movq
+Operand #0: $0x0
+Operand #1: 0x1c8122(%rip)  ---> Effective Address = 0x7ffff7fa8938
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 611: mov
+Operand #0: %fs:0x18
+Operand #1: %edx
+---------------------------------------
+Instruction 612: test
+Operand #0: %edx
+Operand #1: %edx
+---------------------------------------
+Instruction 613: jne
+Operand #0: 0x7ffff7de082a  ---> Effective Address = 0x7ffff7de082a
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 614: decl
+Operand #0: 0x1c8108(%rip)  ---> Effective Address = 0x7ffff7fa8930
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 615: jmp
+Operand #0: 0x7ffff7de084f  ---> Effective Address = 0x7ffff7de084f
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 616: mov
+Operand #0: $0x6
+Operand #1: %edi
+---------------------------------------
+Instruction 617: callq
+Operand #0: 0x7ffff7e010c0  ---> Effective Address = 0x7ffff7e010c0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 618: endbr64
+NO ARGS
+---------------------------------------
+Instruction 619: sub
+Operand #0: $0x118
+Operand #1: %rsp
+---------------------------------------
+Instruction 620: mov
+Operand #0: %edi
+Operand #1: %r8d
+---------------------------------------
+Instruction 621: xor
+Operand #0: %edi
+Operand #1: %edi
+---------------------------------------
+Instruction 622: movdqa
+Operand #0: 0x179708(%rip)  ---> Effective Address = 0x7ffff7f7a7e0
+Operand #1: %xmm0
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------
+Instruction 623: mov
+Operand #0: %fs:0x28
+Operand #1: %rax
+---------------------------------------
+Instruction 624: mov
+Operand #0: %rax
+Operand #1: 0x108(%rsp)  ---> Effective Address = 0x7fffffffdb18
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 625: xor
+Operand #0: %eax
+Operand #1: %eax
+---------------------------------------
+Instruction 626: mov
+Operand #0: %rsp
+Operand #1: %r9
+---------------------------------------
+Instruction 627: mov
+Operand #0: $0xe
+Operand #1: %eax
+---------------------------------------
+Instruction 628: lea
+Operand #0: 0x80(%rsp)  ---> Effective Address = 0x7fffffffda90
+Operand #1: %rsi
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 629: movaps
+Operand #0: %xmm0
+Operand #1: 0x80(%rsp)  ---> Effective Address = 0x7fffffffda90
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 630: pcmpeqd
+Operand #0: %xmm0
+Operand #1: %xmm0
+---------------------------------------
+Instruction 631: mov
+Operand #0: $0x8
+Operand #1: %r10d
+---------------------------------------
+Instruction 632: mov
+Operand #0: %r9
+Operand #1: %rdx
+---------------------------------------
+Instruction 633: movaps
+Operand #0: %xmm0
+Operand #1: 0x90(%rsp)  ---> Effective Address = 0x7fffffffdaa0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 634: movaps
+Operand #0: %xmm0
+Operand #1: 0xa0(%rsp)  ---> Effective Address = 0x7fffffffdab0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 635: movaps
+Operand #0: %xmm0
+Operand #1: 0xb0(%rsp)  ---> Effective Address = 0x7fffffffdac0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 636: movaps
+Operand #0: %xmm0
+Operand #1: 0xc0(%rsp)  ---> Effective Address = 0x7fffffffdad0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 637: movaps
+Operand #0: %xmm0
+Operand #1: 0xd0(%rsp)  ---> Effective Address = 0x7fffffffdae0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 638: movaps
+Operand #0: %xmm0
+Operand #1: 0xe0(%rsp)  ---> Effective Address = 0x7fffffffdaf0
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 639: movaps
+Operand #0: %xmm0
+Operand #1: 0xf0(%rsp)  ---> Effective Address = 0x7fffffffdb00
+***** MEMORY ACCESS *****
+<------ STORE OPERATION ------>
+---------------------------------------
+Instruction 640: syscall
+NO ARGS
+---------------------------------------
+Instruction 641: mov
+Operand #0: $0x27
+Operand #1: %ecx
+---------------------------------------
+Instruction 642: mov
+Operand #0: %ecx
+Operand #1: %eax
+---------------------------------------
+Instruction 643: syscall
+NO ARGS
+---------------------------------------
+Instruction 644: mov
+Operand #0: %rax
+Operand #1: %rdi
+---------------------------------------
+Instruction 645: mov
+Operand #0: $0xba
+Operand #1: %eax
+---------------------------------------
+Instruction 646: syscall
+NO ARGS
+---------------------------------------
+Instruction 647: mov
+Operand #0: %eax
+Operand #1: %esi
+---------------------------------------
+Instruction 648: mov
+Operand #0: %r8d
+Operand #1: %edx
+---------------------------------------
+Instruction 649: mov
+Operand #0: $0xea
+Operand #1: %eax
+---------------------------------------
+Instruction 650: syscall
+NO ARGS
+---------------------------------------
+Instruction 651: cmp
+Operand #0: $0xfffffffffffff000
+Operand #1: %rax
+---------------------------------------
+Instruction 652: ja
+Operand #0: 0x7ffff7e011b0  ---> Effective Address = 0x7ffff7e011b0
+***** MEMORY ACCESS *****
+<------ BASIC MEMORY ACCESS ------>
+---------------------------------------
+Instruction 653: mov
+Operand #0: %eax
+Operand #1: %r8d
+---------------------------------------
+Instruction 654: mov
+Operand #0: $0x8
+Operand #1: %r10d
+---------------------------------------
+Instruction 655: xor
+Operand #0: %edx
+Operand #1: %edx
+---------------------------------------
+Instruction 656: mov
+Operand #0: %r9
+Operand #1: %rsi
+---------------------------------------
+Instruction 657: mov
+Operand #0: $0x2
+Operand #1: %edi
+---------------------------------------
+Instruction 658: mov
+Operand #0: $0xe
+Operand #1: %eax
+---------------------------------------
+Instruction 659: syscall
+NO ARGS
+---------------------------------------
+Instruction 660: mov
+Operand #0: 0x108(%rsp)  ---> Effective Address = 0x7fffffffdb18
+Operand #1: %rax
+***** MEMORY ACCESS *****
+<------ LOAD OPERATION ------>
+---------------------------------------

@@ -1,0 +1,632 @@
+=> 0x555555555149 <main>:	endbr64 
+0x000055555555514d in main ()
+rax            0x555555555149      93824992235849
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x0                 0x0
+rsp            0x7fffffffdd88      0x7fffffffdd88
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555514d      0x55555555514d <main+4>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555514d <main+4>:	push   rbp
+0x000055555555514e in main ()
+rax            0x555555555149      93824992235849
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x0                 0x0
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555514e      0x55555555514e <main+5>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555514e <main+5>:	mov    rbp,rsp
+0x0000555555555151 in main ()
+rax            0x555555555149      93824992235849
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd80      0x7fffffffdd80
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555151      0x555555555151 <main+8>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555151 <main+8>:	sub    rsp,0x30
+0x0000555555555155 in main ()
+rax            0x555555555149      93824992235849
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555155      0x555555555155 <main+12>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555155 <main+12>:	mov    rax,QWORD PTR fs:0x28
+0x000055555555515e in main ()
+rax            0xefa62727466ec900  -1178211202871932672
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555515e      0x55555555515e <main+21>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555515e <main+21>:	mov    QWORD PTR [rbp-0x8],rax
+0x0000555555555162 in main ()
+rax            0xefa62727466ec900  -1178211202871932672
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555162      0x555555555162 <main+25>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555162 <main+25>:	xor    eax,eax
+0x0000555555555164 in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555164      0x555555555164 <main+27>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555164 <main+27>:	mov    DWORD PTR [rbp-0x30],0x0
+0x000055555555516b in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516b      0x55555555516b <main+34>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516b <main+34>:	mov    eax,DWORD PTR [rbp-0x30]
+0x000055555555516e in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555516e      0x55555555516e <main+37>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555516e <main+37>:	mov    DWORD PTR [rbp-0x2c],eax
+0x0000555555555171 in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555171      0x555555555171 <main+40>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555171 <main+40>:	mov    eax,DWORD PTR [rbp-0x2c]
+0x0000555555555174 in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555174      0x555555555174 <main+43>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555174 <main+43>:	mov    DWORD PTR [rbp-0x28],eax
+0x0000555555555177 in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555177      0x555555555177 <main+46>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555177 <main+46>:	mov    BYTE PTR [rbp-0xf],0xa
+0x000055555555517b in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517b      0x55555555517b <main+50>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517b <main+50>:	lea    rax,[rbp-0x16]
+0x000055555555517f in main ()
+rax            0x7fffffffdd6a      140737488346474
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555517f      0x55555555517f <main+54>
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555517f <main+54>:	add    rax,0x6
+0x0000555555555183 in main ()
+rax            0x7fffffffdd70      140737488346480
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555183      0x555555555183 <main+58>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555183 <main+58>:	mov    QWORD PTR [rbp-0x20],rax
+0x0000555555555187 in main ()
+rax            0x7fffffffdd70      140737488346480
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555187      0x555555555187 <main+62>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555187 <main+62>:	mov    rax,QWORD PTR [rbp-0x20]
+0x000055555555518b in main ()
+rax            0x7fffffffdd70      140737488346480
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x7fffffffde88      140737488346760
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555518b      0x55555555518b <main+66>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555518b <main+66>:	mov    edx,DWORD PTR [rbp-0x28]
+0x000055555555518e in main ()
+rax            0x7fffffffdd70      140737488346480
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x0                 0
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555518e      0x55555555518e <main+69>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555518e <main+69>:	mov    DWORD PTR [rax],edx
+0x0000555555555190 in main ()
+rax            0x7fffffffdd70      140737488346480
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x0                 0
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555190      0x555555555190 <main+71>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555190 <main+71>:	movzx  eax,BYTE PTR [rbp-0xf]
+0x0000555555555194 in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x0                 0
+rsi            0x7fffffffde78      140737488346744
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555194      0x555555555194 <main+75>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555194 <main+75>:	movsx  esi,al
+0x0000555555555197 in main ()
+rax            0x0                 0
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555197      0x555555555197 <main+78>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x555555555197 <main+78>:	mov    eax,0xa
+0x000055555555519c in main ()
+rax            0xa                 10
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555519c      0x55555555519c <main+83>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555519c <main+83>:	cdq    
+0x000055555555519d in main ()
+rax            0xa                 10
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555519d      0x55555555519d <main+84>
+eflags         0x212               [ AF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555519d <main+84>:	idiv   esi
+
+Program received signal SIGFPE, Arithmetic exception.
+0x000055555555519d in main ()
+rax            0xa                 10
+rbx            0x5555555551c0      93824992235968
+rcx            0x5555555551c0      93824992235968
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x1                 1
+rbp            0x7fffffffdd80      0x7fffffffdd80
+rsp            0x7fffffffdd50      0x7fffffffdd50
+r8             0x0                 0
+r9             0x7ffff7fe0d50      140737354009936
+r10            0x7ffff7ffcf68      140737354125160
+r11            0x202               514
+r12            0x555555555060      93824992235616
+r13            0x7fffffffde70      140737488346736
+r14            0x0                 0
+r15            0x0                 0
+rip            0x55555555519d      0x55555555519d <main+84>
+eflags         0x10212             [ AF IF RF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+=> 0x55555555519d <main+84>:	idiv   esi
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
+gdb-script.txt:11: Error in sourced command file:
+The program has no registers now.

@@ -1,0 +1,14 @@
+endbr64
+push (%rbp)
+mov %rsp,%rbp
+sub $0x30,%rsp
+mov %edi,-0x24(%rbp)
+mov %rsi,-0x30(%rbp)
+mov %fs:0x28,%rax
+mov %rax,-0x8(%rbp)
+xor %eax,%eax
+movl $0x5f5e100,-0x14(%rbp)
+mov -0x14(%rbp),%eax
+cltq
+movb $0x78,-0x10(%rbp,%rax,1)
+movb $0x78,-0x10(%rbp,%rax,1)
