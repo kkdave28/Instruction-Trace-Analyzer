@@ -7,11 +7,15 @@ list_c = ['ch', 'cl', 'ecx', 'rcx', 'cx']
 list_d = ['dh', 'dl', 'edx', 'rdx', 'dx']
 list_si = ['rsi', 'esi', 'si', 'sil']
 list_di = ['rdi', 'edi', 'di', 'dil']
-
+b_p = 1
+w_p = 2 * b_p
+dw_p = 2 * w_p
+qw_p = 4 * w_p
+size_directive_lookups = {"BYTE PTR":b_p, "WORD PTR": w_p, "DWORD PTR":dw_p, "QWORD PTR":qw_p}
 global_instruction_list = []
 
 def same_register_set(rega, regb):
-    return((rega in list_a and regb in list_a)or(rega in list_b and regb in list_b)or (rega in list_c and regb in list_c)or(rega in list_d and regb in list_d)or(rega in list_si and regb in list_si)(rega in list_di and regb in list_di))
+    return((rega in list_a and regb in list_a)or(rega in list_b and regb in list_b)or (rega in list_c and regb in list_c)or(rega in list_d and regb in list_d)or(rega in list_si and regb in list_si)or(rega in list_di and regb in list_di))
 def generate_trace(i_file: str, o_file: str)-> str:
     try:
         input = open(i_file, "r")
@@ -63,16 +67,25 @@ def generate_trace(i_file: str, o_file: str)-> str:
                                 output.write(keys + " = " + register_lookup_table[keys]+", ")
                             operands[o] = operands[o].replace(keys, register_lookup_table[keys]) # replace register names with values.
                         addr_str = operands[o][operands[o].find("[")+1:operands[o].find("]")]
+                        effective_addr = eval(addr_str)
+                        ptr_type = op[:op.find('[')-1]
+                        if ptr_type in size_directive_lookups.keys():
+                            tracing_list.append([x for x in range(effective_addr, effective_addr+size_directive_lookups[ptr_type])])
+                       # print(tracing_list)
                         output.write(" *STORE* ")
-                        output.write(" Effective Address = " + hex(eval(addr_str)))
+                        output.write(" Effective Address = " + hex(effective_addr))
                     elif op.find("[") != -1 and op.find("]") != -1 and o == 1:
                         for keys in register_lookup_table.keys():
                             if op.find(keys) != -1:
                                 output.write(keys + " = " + register_lookup_table[keys]+", ")
                             operands[o] = operands[o].replace(keys, register_lookup_table[keys]) # replace register names with values.
                         addr_str = operands[o][operands[o].find("[")+1:operands[o].find("]")]
+                        effective_addr = eval(addr_str)
+                        ptr_type = op[:op.find('[')-1]
+                        if ptr_type in size_directive_lookups.keys():
+                            tracing_list.append([x for x in range(effective_addr, effective_addr+size_directive_lookups[ptr_type])])
                         output.write(" *LOAD* ")
-                        output.write(" Effective Address = " + hex(eval(addr_str))) # evaluate the expression to get the effective address
+                        output.write(" Effective Address = " + hex(effective_addr)) # evaluate the expression to get the effective address
                     elif op in register_lookup_table.keys():
                         output.write(register_lookup_table[op])
                     else:
@@ -90,16 +103,17 @@ def trace_corrupting_instruction(corrupting_inst:str):
         return
     instruction_list = corrupting_inst.split()
     operand_list = instruction_list[1].split(",",1)
-    corrupted_reg = ""
+    corrupted_op = ""
+    corrupted_memory_addrs = []
     if(len(operand_list)<=1):
-        corrupted_reg = operand_list[0]
+        corrupted_op = operand_list[0]
         #print(corrupted_reg)
     else:
-        corrupted_reg = operand_list[1]
+        corrupted_op = operand_list[1]
         #print(corrupted_reg)
    
-    if(corrupted_reg.find("[") != -1):
-        print("corruption point found: " + corrupted_reg+"\n")
+    if(corrupted_op.find("[") != -1):
+        print("corruption point found: " + corrupted_op+"\n")
     else:
         for x in reversed(global_instruction_list):
             #print(x)
@@ -107,12 +121,20 @@ def trace_corrupting_instruction(corrupting_inst:str):
                 continue
             else:
                 if(len(x[1]) > 1):
-                    if(x[1][0] == corrupted_reg or same_register_set(corrupted_reg, x[1][0])):
-                        if(x[1][1].find("[") !=-1 or x[1][1].find("0x")!= -1):
-                            print("corrupting instruction found  " + x[0] + str(x[1]))
-                            break
+                    if(len(corrupted_memory_addrs) != 0):
+                        if(x[1][0].find('[') != -1):
+                            for y in corrupted_memory_addrs:
+                                if y in x[2]:
+                                    print("Most likely corrupting instruction found: "+ x[0]+ str(x[1]))
+                                    corrupted_op = x[1][1]
+                                    break
+                    if(x[1][0] == corrupted_op or same_register_set(corrupted_op, x[1][0])):
+                        if(x[1][1].find("[") !=-1):
+                            #print(x)
+                            corrupted_memory_addrs = x[2]
+                            #print("corrupting instruction found  " + x[0] + str(x[1]))
                         else:
-                            corrupted_reg = x[1][1]
+                            corrupted_op = x[1][1]
 
     
 
