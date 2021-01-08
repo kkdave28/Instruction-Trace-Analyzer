@@ -1,5 +1,4 @@
-=> 0x80011ab <main>:	endbr64 
-0x00000000080011af in main ()
+=> endbr64 
 rax            0x80011ab           134222251
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -16,7 +15,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011af           0x80011af <main+4>
+rip            0x80011af           0x80011af 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -24,8 +23,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011af <main+4>:	push   rbp
-0x00000000080011b0 in main ()
+=> push   rbp
 rax            0x80011ab           134222251
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -42,7 +40,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011b0           0x80011b0 <main+5>
+rip            0x80011b0           0x80011b0 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -50,8 +48,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011b0 <main+5>:	mov    rbp,rsp
-0x00000000080011b3 in main ()
+=> mov    rbp,rsp
 rax            0x80011ab           134222251
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -68,7 +65,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011b3           0x80011b3 <main+8>
+rip            0x80011b3           0x80011b3 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -76,8 +73,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011b3 <main+8>:	sub    rsp,0x40
-0x00000000080011b7 in main ()
+=> sub    rsp,0x40
 rax            0x80011ab           134222251
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -94,7 +90,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011b7           0x80011b7 <main+12>
+rip            0x80011b7           0x80011b7 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -102,8 +98,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011b7 <main+12>:	mov    DWORD PTR [rbp-0x34],edi
-0x00000000080011ba in main ()
+=> mov    DWORD PTR [rbp-0x34],edi
 rax            0x80011ab           134222251
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -120,7 +115,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011ba           0x80011ba <main+15>
+rip            0x80011ba           0x80011ba 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -128,8 +123,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011ba <main+15>:	mov    QWORD PTR [rbp-0x40],rsi
-0x00000000080011be in main ()
+=> mov    QWORD PTR [rbp-0x40],rsi
 rax            0x80011ab           134222251
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -146,7 +140,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011be           0x80011be <main+19>
+rip            0x80011be           0x80011be 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -154,8 +148,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011be <main+19>:	mov    rax,QWORD PTR fs:0x28
-0x00000000080011c7 in main ()
+=> mov    rax,QWORD PTR fs:0x28
 rax            0x8f997d4ac5537b00  -8099304694757491968
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -172,7 +165,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011c7           0x80011c7 <main+28>
+rip            0x80011c7           0x80011c7 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -180,8 +173,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011c7 <main+28>:	mov    QWORD PTR [rbp-0x8],rax
-0x00000000080011cb in main ()
+=> mov    QWORD PTR [rbp-0x8],rax
 rax            0x8f997d4ac5537b00  -8099304694757491968
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -198,7 +190,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011cb           0x80011cb <main+32>
+rip            0x80011cb           0x80011cb 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -206,8 +198,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011cb <main+32>:	xor    eax,eax
-0x00000000080011cd in main ()
+=> xor    eax,eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -224,7 +215,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011cd           0x80011cd <main+34>
+rip            0x80011cd           0x80011cd 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -232,8 +223,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011cd <main+34>:	mov    DWORD PTR [rbp-0x30],0x0
-0x00000000080011d4 in main ()
+=> mov    DWORD PTR [rbp-0x30],0x0
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -250,7 +240,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011d4           0x80011d4 <main+41>
+rip            0x80011d4           0x80011d4 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -258,8 +248,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011d4 <main+41>:	mov    eax,DWORD PTR [rbp-0x30]
-0x00000000080011d7 in main ()
+=> mov    eax,DWORD PTR [rbp-0x30]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -276,7 +265,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011d7           0x80011d7 <main+44>
+rip            0x80011d7           0x80011d7 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -284,8 +273,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011d7 <main+44>:	mov    DWORD PTR [rbp-0x2c],eax
-0x00000000080011da in main ()
+=> mov    DWORD PTR [rbp-0x2c],eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -302,7 +290,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011da           0x80011da <main+47>
+rip            0x80011da           0x80011da 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -310,8 +298,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011da <main+47>:	mov    eax,DWORD PTR [rbp-0x2c]
-0x00000000080011dd in main ()
+=> mov    eax,DWORD PTR [rbp-0x2c]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -328,7 +315,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011dd           0x80011dd <main+50>
+rip            0x80011dd           0x80011dd 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -336,8 +323,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011dd <main+50>:	mov    DWORD PTR [rbp-0x28],eax
-0x00000000080011e0 in main ()
+=> mov    DWORD PTR [rbp-0x28],eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -354,7 +340,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011e0           0x80011e0 <main+53>
+rip            0x80011e0           0x80011e0 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -362,8 +348,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011e0 <main+53>:	mov    BYTE PTR [rbp-0xf],0xa
-0x00000000080011e4 in main ()
+=> mov    BYTE PTR [rbp-0xf],0xa
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -380,7 +365,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011e4           0x80011e4 <main+57>
+rip            0x80011e4           0x80011e4 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -388,8 +373,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011e4 <main+57>:	lea    rax,[rbp-0x16]
-0x00000000080011e8 in main ()
+=> lea    rax,[rbp-0x16]
 rax            0x7ffffffee23a      140737488282170
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -406,7 +390,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011e8           0x80011e8 <main+61>
+rip            0x80011e8           0x80011e8 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -414,8 +398,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011e8 <main+61>:	add    rax,0x6
-0x00000000080011ec in main ()
+=> add    rax,0x6
 rax            0x7ffffffee240      140737488282176
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -432,7 +415,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011ec           0x80011ec <main+65>
+rip            0x80011ec           0x80011ec 
 eflags         0x212               [ AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -440,8 +423,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011ec <main+65>:	mov    QWORD PTR [rbp-0x20],rax
-0x00000000080011f0 in main ()
+=> mov    QWORD PTR [rbp-0x20],rax
 rax            0x7ffffffee240      140737488282176
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -458,7 +440,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011f0           0x80011f0 <main+69>
+rip            0x80011f0           0x80011f0 
 eflags         0x212               [ AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -466,8 +448,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011f0 <main+69>:	mov    rax,QWORD PTR [rbp-0x40]
-0x00000000080011f4 in main ()
+=> mov    rax,QWORD PTR [rbp-0x40]
 rax            0x7ffffffee348      140737488282440
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -484,7 +465,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011f4           0x80011f4 <main+73>
+rip            0x80011f4           0x80011f4 
 eflags         0x212               [ AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -492,8 +473,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011f4 <main+73>:	add    rax,0x8
-0x00000000080011f8 in main ()
+=> add    rax,0x8
 rax            0x7ffffffee350      140737488282448
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -510,7 +490,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011f8           0x80011f8 <main+77>
+rip            0x80011f8           0x80011f8 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -518,8 +498,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011f8 <main+77>:	mov    rax,QWORD PTR [rax]
-0x00000000080011fb in main ()
+=> mov    rax,QWORD PTR [rax]
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -536,7 +515,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011fb           0x80011fb <main+80>
+rip            0x80011fb           0x80011fb 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -544,8 +523,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011fb <main+80>:	mov    rdi,rax
-0x00000000080011fe in main ()
+=> mov    rdi,rax
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -562,7 +540,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011fe           0x80011fe <main+83>
+rip            0x80011fe           0x80011fe 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -570,8 +548,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011fe <main+83>:	call   0x8001149 <myAtoi>
-0x0000000008001149 in myAtoi ()
+=> call   0x8001149 
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -588,7 +565,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001149           0x8001149 <myAtoi>
+rip            0x8001149           0x8001149 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -596,8 +573,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001149 <myAtoi>:	endbr64 
-0x000000000800114d in myAtoi ()
+=> endbr64 
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -614,7 +590,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800114d           0x800114d <myAtoi+4>
+rip            0x800114d           0x800114d 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -622,8 +598,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800114d <myAtoi+4>:	push   rbp
-0x000000000800114e in myAtoi ()
+=> push   rbp
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -640,7 +615,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800114e           0x800114e <myAtoi+5>
+rip            0x800114e           0x800114e 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -648,8 +623,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800114e <myAtoi+5>:	mov    rbp,rsp
-0x0000000008001151 in myAtoi ()
+=> mov    rbp,rsp
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -666,7 +640,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001151           0x8001151 <myAtoi+8>
+rip            0x8001151           0x8001151 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -674,8 +648,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001151 <myAtoi+8>:	mov    QWORD PTR [rbp-0x18],rdi
-0x0000000008001155 in myAtoi ()
+=> mov    QWORD PTR [rbp-0x18],rdi
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -692,7 +665,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001155           0x8001155 <myAtoi+12>
+rip            0x8001155           0x8001155 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -700,8 +673,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001155 <myAtoi+12>:	mov    DWORD PTR [rbp-0x8],0x0
-0x000000000800115c in myAtoi ()
+=> mov    DWORD PTR [rbp-0x8],0x0
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -718,7 +690,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800115c           0x800115c <myAtoi+19>
+rip            0x800115c           0x800115c 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -726,8 +698,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800115c <myAtoi+19>:	mov    DWORD PTR [rbp-0x4],0x0
-0x0000000008001163 in myAtoi ()
+=> mov    DWORD PTR [rbp-0x4],0x0
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -744,7 +715,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001163           0x8001163 <myAtoi+26>
+rip            0x8001163           0x8001163 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -752,8 +723,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001163 <myAtoi+26>:	jmp    0x8001192 <myAtoi+73>
-0x0000000008001192 in myAtoi ()
+=> jmp    0x8001192 
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -770,7 +740,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001192           0x8001192 <myAtoi+73>
+rip            0x8001192           0x8001192 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -778,8 +748,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001192 <myAtoi+73>:	mov    eax,DWORD PTR [rbp-0x4]
-0x0000000008001195 in myAtoi ()
+=> mov    eax,DWORD PTR [rbp-0x4]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -796,7 +765,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001195           0x8001195 <myAtoi+76>
+rip            0x8001195           0x8001195 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -804,8 +773,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001195 <myAtoi+76>:	movsxd rdx,eax
-0x0000000008001198 in myAtoi ()
+=> movsxd rdx,eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -822,7 +790,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001198           0x8001198 <myAtoi+79>
+rip            0x8001198           0x8001198 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -830,8 +798,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001198 <myAtoi+79>:	mov    rax,QWORD PTR [rbp-0x18]
-0x000000000800119c in myAtoi ()
+=> mov    rax,QWORD PTR [rbp-0x18]
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -848,7 +815,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800119c           0x800119c <myAtoi+83>
+rip            0x800119c           0x800119c 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -856,8 +823,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800119c <myAtoi+83>:	add    rax,rdx
-0x000000000800119f in myAtoi ()
+=> add    rax,rdx
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -874,7 +840,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800119f           0x800119f <myAtoi+86>
+rip            0x800119f           0x800119f 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -882,8 +848,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800119f <myAtoi+86>:	movzx  eax,BYTE PTR [rax]
-0x00000000080011a2 in myAtoi ()
+=> movzx  eax,BYTE PTR [rax]
 rax            0x30                48
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -900,7 +865,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011a2           0x80011a2 <myAtoi+89>
+rip            0x80011a2           0x80011a2 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -908,8 +873,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011a2 <myAtoi+89>:	test   al,al
-0x00000000080011a4 in myAtoi ()
+=> test   al,al
 rax            0x30                48
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -926,7 +890,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011a4           0x80011a4 <myAtoi+91>
+rip            0x80011a4           0x80011a4 
 eflags         0x206               [ PF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -934,8 +898,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011a4 <myAtoi+91>:	jne    0x8001165 <myAtoi+28>
-0x0000000008001165 in myAtoi ()
+=> jne    0x8001165 
 rax            0x30                48
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -952,7 +915,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001165           0x8001165 <myAtoi+28>
+rip            0x8001165           0x8001165 
 eflags         0x206               [ PF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -960,8 +923,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001165 <myAtoi+28>:	mov    edx,DWORD PTR [rbp-0x8]
-0x0000000008001168 in myAtoi ()
+=> mov    edx,DWORD PTR [rbp-0x8]
 rax            0x30                48
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -978,7 +940,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001168           0x8001168 <myAtoi+31>
+rip            0x8001168           0x8001168 
 eflags         0x206               [ PF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -986,8 +948,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001168 <myAtoi+31>:	mov    eax,edx
-0x000000000800116a in myAtoi ()
+=> mov    eax,edx
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -1004,7 +965,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800116a           0x800116a <myAtoi+33>
+rip            0x800116a           0x800116a 
 eflags         0x206               [ PF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1012,8 +973,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800116a <myAtoi+33>:	shl    eax,0x2
-0x000000000800116d in myAtoi ()
+=> shl    eax,0x2
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -1030,7 +990,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800116d           0x800116d <myAtoi+36>
+rip            0x800116d           0x800116d 
 eflags         0x256               [ PF AF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1038,8 +998,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800116d <myAtoi+36>:	add    eax,edx
-0x000000000800116f in myAtoi ()
+=> add    eax,edx
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -1056,7 +1015,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800116f           0x800116f <myAtoi+38>
+rip            0x800116f           0x800116f 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1064,8 +1023,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800116f <myAtoi+38>:	add    eax,eax
-0x0000000008001171 in myAtoi ()
+=> add    eax,eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x8001240           134222400
@@ -1082,7 +1040,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001171           0x8001171 <myAtoi+40>
+rip            0x8001171           0x8001171 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1090,8 +1048,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001171 <myAtoi+40>:	mov    ecx,eax
-0x0000000008001173 in myAtoi ()
+=> mov    ecx,eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1108,7 +1065,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001173           0x8001173 <myAtoi+42>
+rip            0x8001173           0x8001173 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1116,8 +1073,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001173 <myAtoi+42>:	mov    eax,DWORD PTR [rbp-0x4]
-0x0000000008001176 in myAtoi ()
+=> mov    eax,DWORD PTR [rbp-0x4]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1134,7 +1090,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001176           0x8001176 <myAtoi+45>
+rip            0x8001176           0x8001176 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1142,8 +1098,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001176 <myAtoi+45>:	movsxd rdx,eax
-0x0000000008001179 in myAtoi ()
+=> movsxd rdx,eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1160,7 +1115,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001179           0x8001179 <myAtoi+48>
+rip            0x8001179           0x8001179 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1168,8 +1123,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001179 <myAtoi+48>:	mov    rax,QWORD PTR [rbp-0x18]
-0x000000000800117d in myAtoi ()
+=> mov    rax,QWORD PTR [rbp-0x18]
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1186,7 +1140,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800117d           0x800117d <myAtoi+52>
+rip            0x800117d           0x800117d 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1194,8 +1148,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800117d <myAtoi+52>:	add    rax,rdx
-0x0000000008001180 in myAtoi ()
+=> add    rax,rdx
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1212,7 +1165,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001180           0x8001180 <myAtoi+55>
+rip            0x8001180           0x8001180 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1220,8 +1173,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001180 <myAtoi+55>:	movzx  eax,BYTE PTR [rax]
-0x0000000008001183 in myAtoi ()
+=> movzx  eax,BYTE PTR [rax]
 rax            0x30                48
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1238,7 +1190,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001183           0x8001183 <myAtoi+58>
+rip            0x8001183           0x8001183 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1246,8 +1198,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001183 <myAtoi+58>:	movsx  eax,al
-0x0000000008001186 in myAtoi ()
+=> movsx  eax,al
 rax            0x30                48
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1264,7 +1215,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001186           0x8001186 <myAtoi+61>
+rip            0x8001186           0x8001186 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1272,8 +1223,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001186 <myAtoi+61>:	add    eax,ecx
-0x0000000008001188 in myAtoi ()
+=> add    eax,ecx
 rax            0x30                48
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1290,7 +1240,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001188           0x8001188 <myAtoi+63>
+rip            0x8001188           0x8001188 
 eflags         0x206               [ PF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1298,8 +1248,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001188 <myAtoi+63>:	sub    eax,0x30
-0x000000000800118b in myAtoi ()
+=> sub    eax,0x30
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1316,7 +1265,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800118b           0x800118b <myAtoi+66>
+rip            0x800118b           0x800118b 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1324,8 +1273,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800118b <myAtoi+66>:	mov    DWORD PTR [rbp-0x8],eax
-0x000000000800118e in myAtoi ()
+=> mov    DWORD PTR [rbp-0x8],eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1342,7 +1290,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800118e           0x800118e <myAtoi+69>
+rip            0x800118e           0x800118e 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1350,8 +1298,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800118e <myAtoi+69>:	add    DWORD PTR [rbp-0x4],0x1
-0x0000000008001192 in myAtoi ()
+=> add    DWORD PTR [rbp-0x4],0x1
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1368,7 +1315,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001192           0x8001192 <myAtoi+73>
+rip            0x8001192           0x8001192 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1376,8 +1323,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001192 <myAtoi+73>:	mov    eax,DWORD PTR [rbp-0x4]
-0x0000000008001195 in myAtoi ()
+=> mov    eax,DWORD PTR [rbp-0x4]
 rax            0x1                 1
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1394,7 +1340,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001195           0x8001195 <myAtoi+76>
+rip            0x8001195           0x8001195 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1402,8 +1348,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001195 <myAtoi+76>:	movsxd rdx,eax
-0x0000000008001198 in myAtoi ()
+=> movsxd rdx,eax
 rax            0x1                 1
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1420,7 +1365,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001198           0x8001198 <myAtoi+79>
+rip            0x8001198           0x8001198 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1428,8 +1373,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001198 <myAtoi+79>:	mov    rax,QWORD PTR [rbp-0x18]
-0x000000000800119c in myAtoi ()
+=> mov    rax,QWORD PTR [rbp-0x18]
 rax            0x7ffffffee5bf      140737488283071
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1446,7 +1390,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800119c           0x800119c <myAtoi+83>
+rip            0x800119c           0x800119c 
 eflags         0x202               [ IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1454,8 +1398,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800119c <myAtoi+83>:	add    rax,rdx
-0x000000000800119f in myAtoi ()
+=> add    rax,rdx
 rax            0x7ffffffee5c0      140737488283072
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1472,7 +1415,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800119f           0x800119f <myAtoi+86>
+rip            0x800119f           0x800119f 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1480,8 +1423,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800119f <myAtoi+86>:	movzx  eax,BYTE PTR [rax]
-0x00000000080011a2 in myAtoi ()
+=> movzx  eax,BYTE PTR [rax]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1498,7 +1440,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011a2           0x80011a2 <myAtoi+89>
+rip            0x80011a2           0x80011a2 
 eflags         0x216               [ PF AF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1506,8 +1448,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011a2 <myAtoi+89>:	test   al,al
-0x00000000080011a4 in myAtoi ()
+=> test   al,al
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1524,7 +1465,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011a4           0x80011a4 <myAtoi+91>
+rip            0x80011a4           0x80011a4 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1532,8 +1473,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011a4 <myAtoi+91>:	jne    0x8001165 <myAtoi+28>
-0x00000000080011a6 in myAtoi ()
+=> jne    0x8001165 
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1550,7 +1490,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011a6           0x80011a6 <myAtoi+93>
+rip            0x80011a6           0x80011a6 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1558,8 +1498,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011a6 <myAtoi+93>:	mov    eax,DWORD PTR [rbp-0x8]
-0x00000000080011a9 in myAtoi ()
+=> mov    eax,DWORD PTR [rbp-0x8]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1576,7 +1515,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011a9           0x80011a9 <myAtoi+96>
+rip            0x80011a9           0x80011a9 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1584,8 +1523,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011a9 <myAtoi+96>:	pop    rbp
-0x00000000080011aa in myAtoi ()
+=> pop    rbp
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1602,7 +1540,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x80011aa           0x80011aa <myAtoi+97>
+rip            0x80011aa           0x80011aa 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1610,8 +1548,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x80011aa <myAtoi+97>:	ret    
-0x0000000008001203 in main ()
+=> ret    
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1628,7 +1565,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001203           0x8001203 <main+88>
+rip            0x8001203           0x8001203 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1636,8 +1573,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001203 <main+88>:	mov    rdx,QWORD PTR [rbp-0x20]
-0x0000000008001207 in main ()
+=> mov    rdx,QWORD PTR [rbp-0x20]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1654,7 +1590,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001207           0x8001207 <main+92>
+rip            0x8001207           0x8001207 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1662,8 +1598,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001207 <main+92>:	mov    DWORD PTR [rdx],eax
-0x0000000008001209 in main ()
+=> mov    DWORD PTR [rdx],eax
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1680,7 +1615,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001209           0x8001209 <main+94>
+rip            0x8001209           0x8001209 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1688,8 +1623,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001209 <main+94>:	movzx  eax,BYTE PTR [rbp-0xf]
-0x000000000800120d in main ()
+=> movzx  eax,BYTE PTR [rbp-0xf]
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1706,7 +1640,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x800120d           0x800120d <main+98>
+rip            0x800120d           0x800120d 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1714,8 +1648,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x800120d <main+98>:	movsx  ecx,al
-0x0000000008001210 in main ()
+=> movsx  ecx,al
 rax            0x0                 0
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1732,7 +1665,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001210           0x8001210 <main+101>
+rip            0x8001210           0x8001210 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1740,8 +1673,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001210 <main+101>:	mov    eax,0xa
-0x0000000008001215 in main ()
+=> mov    eax,0xa
 rax            0xa                 10
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1758,7 +1690,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001215           0x8001215 <main+106>
+rip            0x8001215           0x8001215 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1766,8 +1698,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001215 <main+106>:	cdq    
-0x0000000008001216 in main ()
+=> cdq    
 rax            0xa                 10
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1784,7 +1715,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001216           0x8001216 <main+107>
+rip            0x8001216           0x8001216 
 eflags         0x246               [ PF ZF IF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1792,10 +1723,7 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001216 <main+107>:	idiv   ecx
-
-Program received signal SIGFPE, Arithmetic exception.
-0x0000000008001216 in main ()
+=> idiv   ecx
 rax            0xa                 10
 rbx            0x8001240           134222400
 rcx            0x0                 0
@@ -1812,7 +1740,7 @@ r12            0x8001060           134221920
 r13            0x7ffffffee340      140737488282432
 r14            0x0                 0
 r15            0x0                 0
-rip            0x8001216           0x8001216 <main+107>
+rip            0x8001216           0x8001216 
 eflags         0x10346             [ PF ZF TF IF RF ]
 cs             0x33                51
 ss             0x2b                43
@@ -1820,10 +1748,5 @@ ds             0x0                 0
 es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
-=> 0x8001216 <main+107>:	idiv   ecx
-
-Program terminated with signal SIGFPE, Arithmetic exception.
-The program no longer exists.
+=> idiv   ecx
 gdb-script.txt:11: Error in sourced command file:
-The program has no registers now.
-Undefined command: "exit".  Try "help".

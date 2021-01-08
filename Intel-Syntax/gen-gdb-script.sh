@@ -1,3 +1,4 @@
+#! /usr/bin/zsh
 let endpoint=$(expr `./get-end.sh "$1"` - 1)
 echo "b main
 r "${@:2}"
