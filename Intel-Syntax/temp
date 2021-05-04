@@ -1,0 +1,27 @@
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_unlock@GLIBC_2.0 (2)
+     2: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_destroy@GLIBC_2.0 (2)
+     3: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTab
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.0 (3)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND iswxdigit@GLIBC_2.0 (3)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.0 (3)
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.0 (3)
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_init@GLIBC_2.0 (2)
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@GLIBC_2.0 (3)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (4)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lock@GLIBC_2.0 (2)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND wprintf@GLIBC_2.2 (5)
+    13: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.1.3 (6)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc99_swscanf@GLIBC_2.7 (7)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.0 (3)
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@GLIBC_2.0 (3)
+    17: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND srand@GLIBC_2.0 (3)
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@GLIBC_2.0 (3)
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc99_sscanf@GLIBC_2.7 (7)
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND rand@GLIBC_2.0 (3)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_exit@GLIBC_2.0 (2)
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_join@GLIBC_2.0 (2)
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_create@GLIBC_2.1 (8)
+    25: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND __ctype_b_loc@GLIBC_2.3 (9)

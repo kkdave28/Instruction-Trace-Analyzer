@@ -8,9 +8,9 @@ set disassembly-flavor intel
 set variable \$loop = *main + $endpoint
 while \$pc != \$loop
 x/i \$pc
-stepi
+nexti
 i r
 end
-stepi
+nexti
 i r
-quit" > gdb-script.txt
+quit" > "`pwd`/gdb-script.txt"

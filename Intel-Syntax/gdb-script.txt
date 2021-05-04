@@ -1,9 +1,9 @@
 b main
-r 0
+r 
 set logging on
 set height 0
 set disassembly-flavor intel
-set variable $loop = *main + 138
+set variable $loop = *main + 110
 while $pc != $loop
 x/i $pc
 stepi

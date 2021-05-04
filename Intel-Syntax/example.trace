@@ -1,73 +1,77 @@
 1: endbr64
 2: push   rbp  Operand Values: rbp = 0x0, 
-3: mov    rbp,rsp  Operand Values: rbp = 0x7ffffffee250,   Operand Values: rsp = 0x7ffffffee250, 
-4: sub    rsp,0x40  Operand Values: rsp = 0x7ffffffee210,   Operand Values: Constant = 0x40
-5: mov    DWORD PTR [rbp-0x34],edi  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee21c  Operand Values: edi = 0x2, 
-6: mov    QWORD PTR [rbp-0x40],rsi  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee210  Operand Values: rsi = 0x7ffffffee348, 
-7: mov    rax,QWORD PTR fs:0x28  Operand Values: rax = 0x8f997d4ac5537b00,   Operand Values: fs = 0x0, 
-8: mov    QWORD PTR [rbp-0x8],rax  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee248  Operand Values: rax = 0x8f997d4ac5537b00, 
+3: mov    rbp,rsp  Operand Values: rbp = 0x7ffffffee210,   Operand Values: rsp = 0x7ffffffee210, 
+4: sub    rsp,0x50  Operand Values: rsp = 0x7ffffffee1c0,   Operand Values: Constant = 0x50
+5: mov    DWORD PTR [rbp-0x44],edi  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1cc  Operand Values: edi = 0x2, 
+6: mov    QWORD PTR [rbp-0x50],rsi  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1c0  Operand Values: rsi = 0x7ffffffee308, 
+7: mov    rax,QWORD PTR fs:0x28  Operand Values: rax = 0x8a31738e7f969600,   Operand Values: fs = 0x0, 
+8: mov    QWORD PTR [rbp-0x8],rax  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee208  Operand Values: rax = 0x8a31738e7f969600, 
 9: xor    eax,eax  Operand Values: eax = 0x0,   Operand Values: eax = 0x0, 
-10: mov    DWORD PTR [rbp-0x30],0x0  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee220  Operand Values: Constant = 0x0
-11: mov    eax,DWORD PTR [rbp-0x30]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee250,  *LOAD*  Effective Address = 0x7ffffffee220
-12: mov    DWORD PTR [rbp-0x2c],eax  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee224  Operand Values: eax = 0x0, 
-13: mov    eax,DWORD PTR [rbp-0x2c]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee250,  *LOAD*  Effective Address = 0x7ffffffee224
-14: mov    DWORD PTR [rbp-0x28],eax  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee228  Operand Values: eax = 0x0, 
-15: mov    BYTE PTR [rbp-0xf],0xa  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee241  Operand Values: Constant = 0xa
-16: lea    rax,[rbp-0x16]  Operand Values: rax = 0x7ffffffee23a,   Operand Values: rbp = 0x7ffffffee250,  *LOAD*  Effective Address = 0x7ffffffee23a
-17: add    rax,0x6  Operand Values: rax = 0x7ffffffee240,   Operand Values: Constant = 0x6
-18: mov    QWORD PTR [rbp-0x20],rax  Operand Values: rbp = 0x7ffffffee250,  *STORE*  Effective Address = 0x7ffffffee230  Operand Values: rax = 0x7ffffffee240, 
-19: mov    rax,QWORD PTR [rbp-0x40]  Operand Values: rax = 0x7ffffffee348,   Operand Values: rbp = 0x7ffffffee250,  *LOAD*  Effective Address = 0x7ffffffee210
-20: add    rax,0x8  Operand Values: rax = 0x7ffffffee350,   Operand Values: Constant = 0x8
-21: mov    rax,QWORD PTR [rax]  Operand Values: rax = 0x7ffffffee5bf,   Operand Values: rax = 0x7ffffffee5bf,  *LOAD*  Effective Address = 0x7ffffffee5bf
-22: mov    rdi,rax  Operand Values: rdi = 0x7ffffffee5bf,   Operand Values: rax = 0x7ffffffee5bf, 
+10: mov    DWORD PTR [rbp-0x34],0x0  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1dc  Operand Values: Constant = 0x0
+11: mov    eax,DWORD PTR [rbp-0x34]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee210,  *LOAD*  Effective Address = 0x7ffffffee1dc
+12: mov    DWORD PTR [rbp-0x30],eax  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1e0  Operand Values: eax = 0x0, 
+13: mov    eax,DWORD PTR [rbp-0x30]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee210,  *LOAD*  Effective Address = 0x7ffffffee1e0
+14: mov    DWORD PTR [rbp-0x2c],eax  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1e4  Operand Values: eax = 0x0, 
+15: mov    BYTE PTR [rbp-0xf],0xa  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee201  Operand Values: Constant = 0xa
+16: lea    rax,[rbp-0x16]  Operand Values: rax = 0x7ffffffee1fa,   Operand Values: rbp = 0x7ffffffee210,  *LOAD*  Effective Address = 0x7ffffffee1fa
+17: add    rax,0x6  Operand Values: rax = 0x7ffffffee200,   Operand Values: Constant = 0x6
+18: mov    QWORD PTR [rbp-0x20],rax  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1f0  Operand Values: rax = 0x7ffffffee200, 
+19: mov    rax,QWORD PTR [rbp-0x50]  Operand Values: rax = 0x7ffffffee308,   Operand Values: rbp = 0x7ffffffee210,  *LOAD*  Effective Address = 0x7ffffffee1c0
+20: add    rax,0x8  Operand Values: rax = 0x7ffffffee310,   Operand Values: Constant = 0x8
+21: mov    rax,QWORD PTR [rax]  Operand Values: rax = 0x7ffffffee57f,   Operand Values: rax = 0x7ffffffee57f,  *LOAD*  Effective Address = 0x7ffffffee57f
+22: mov    rdi,rax  Operand Values: rdi = 0x7ffffffee57f,   Operand Values: rax = 0x7ffffffee57f, 
 23: call   0x8001149  Operand Values: Constant = 0x8001149
 24: endbr64
-25: push   rbp  Operand Values: rbp = 0x7ffffffee250, 
-26: mov    rbp,rsp  Operand Values: rbp = 0x7ffffffee200,   Operand Values: rsp = 0x7ffffffee200, 
-27: mov    QWORD PTR [rbp-0x18],rdi  Operand Values: rbp = 0x7ffffffee200,  *STORE*  Effective Address = 0x7ffffffee1e8  Operand Values: rdi = 0x7ffffffee5bf, 
-28: mov    DWORD PTR [rbp-0x8],0x0  Operand Values: rbp = 0x7ffffffee200,  *STORE*  Effective Address = 0x7ffffffee1f8  Operand Values: Constant = 0x0
-29: mov    DWORD PTR [rbp-0x4],0x0  Operand Values: rbp = 0x7ffffffee200,  *STORE*  Effective Address = 0x7ffffffee1fc  Operand Values: Constant = 0x0
+25: push   rbp  Operand Values: rbp = 0x7ffffffee210, 
+26: mov    rbp,rsp  Operand Values: rbp = 0x7ffffffee1b0,   Operand Values: rsp = 0x7ffffffee1b0, 
+27: mov    QWORD PTR [rbp-0x18],rdi  Operand Values: rbp = 0x7ffffffee1b0,  *STORE*  Effective Address = 0x7ffffffee198  Operand Values: rdi = 0x7ffffffee57f, 
+28: mov    DWORD PTR [rbp-0x8],0x0  Operand Values: rbp = 0x7ffffffee1b0,  *STORE*  Effective Address = 0x7ffffffee1a8  Operand Values: Constant = 0x0
+29: mov    DWORD PTR [rbp-0x4],0x0  Operand Values: rbp = 0x7ffffffee1b0,  *STORE*  Effective Address = 0x7ffffffee1ac  Operand Values: Constant = 0x0
 30: jmp    0x8001192  Operand Values: Constant = 0x8001192
-31: mov    eax,DWORD PTR [rbp-0x4]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1fc
+31: mov    eax,DWORD PTR [rbp-0x4]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee1ac
 32: movsxd rdx,eax  Operand Values: rdx = 0x0,   Operand Values: eax = 0x0, 
-33: mov    rax,QWORD PTR [rbp-0x18]  Operand Values: rax = 0x7ffffffee5bf,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1e8
-34: add    rax,rdx  Operand Values: rax = 0x7ffffffee5bf,   Operand Values: rdx = 0x0, 
+33: mov    rax,QWORD PTR [rbp-0x18]  Operand Values: rax = 0x7ffffffee57f,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee198
+34: add    rax,rdx  Operand Values: rax = 0x7ffffffee57f,   Operand Values: rdx = 0x0, 
 35: movzx  eax,BYTE PTR [rax]  Operand Values: eax = 0x30,   Operand Values: rax = 0x30,  *LOAD*  Effective Address = 0x30
 36: test   al,al  Operand Values: al = 0x30,   Operand Values: al = 0x30, 
 37: jne    0x8001165  Operand Values: Constant = 0x8001165
-38: mov    edx,DWORD PTR [rbp-0x8]  Operand Values: edx = 0x0,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1f8
+38: mov    edx,DWORD PTR [rbp-0x8]  Operand Values: edx = 0x0,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee1a8
 39: mov    eax,edx  Operand Values: eax = 0x0,   Operand Values: edx = 0x0, 
 40: shl    eax,0x2  Operand Values: eax = 0x0,   Operand Values: Constant = 0x2
 41: add    eax,edx  Operand Values: eax = 0x0,   Operand Values: edx = 0x0, 
 42: add    eax,eax  Operand Values: eax = 0x0,   Operand Values: eax = 0x0, 
 43: mov    ecx,eax  Operand Values: ecx = 0x0,   Operand Values: eax = 0x0, 
-44: mov    eax,DWORD PTR [rbp-0x4]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1fc
+44: mov    eax,DWORD PTR [rbp-0x4]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee1ac
 45: movsxd rdx,eax  Operand Values: rdx = 0x0,   Operand Values: eax = 0x0, 
-46: mov    rax,QWORD PTR [rbp-0x18]  Operand Values: rax = 0x7ffffffee5bf,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1e8
-47: add    rax,rdx  Operand Values: rax = 0x7ffffffee5bf,   Operand Values: rdx = 0x0, 
+46: mov    rax,QWORD PTR [rbp-0x18]  Operand Values: rax = 0x7ffffffee57f,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee198
+47: add    rax,rdx  Operand Values: rax = 0x7ffffffee57f,   Operand Values: rdx = 0x0, 
 48: movzx  eax,BYTE PTR [rax]  Operand Values: eax = 0x30,   Operand Values: rax = 0x30,  *LOAD*  Effective Address = 0x30
 49: movsx  eax,al  Operand Values: eax = 0x30,   Operand Values: al = 0x30, 
 50: add    eax,ecx  Operand Values: eax = 0x30,   Operand Values: ecx = 0x0, 
 51: sub    eax,0x30  Operand Values: eax = 0x0,   Operand Values: Constant = 0x30
-52: mov    DWORD PTR [rbp-0x8],eax  Operand Values: rbp = 0x7ffffffee200,  *STORE*  Effective Address = 0x7ffffffee1f8  Operand Values: eax = 0x0, 
-53: add    DWORD PTR [rbp-0x4],0x1  Operand Values: rbp = 0x7ffffffee200,  *STORE*  Effective Address = 0x7ffffffee1fc  Operand Values: Constant = 0x1
-54: mov    eax,DWORD PTR [rbp-0x4]  Operand Values: eax = 0x1,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1fc
+52: mov    DWORD PTR [rbp-0x8],eax  Operand Values: rbp = 0x7ffffffee1b0,  *STORE*  Effective Address = 0x7ffffffee1a8  Operand Values: eax = 0x0, 
+53: add    DWORD PTR [rbp-0x4],0x1  Operand Values: rbp = 0x7ffffffee1b0,  *STORE*  Effective Address = 0x7ffffffee1ac  Operand Values: Constant = 0x1
+54: mov    eax,DWORD PTR [rbp-0x4]  Operand Values: eax = 0x1,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee1ac
 55: movsxd rdx,eax  Operand Values: rdx = 0x1,   Operand Values: eax = 0x1, 
-56: mov    rax,QWORD PTR [rbp-0x18]  Operand Values: rax = 0x7ffffffee5bf,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1e8
-57: add    rax,rdx  Operand Values: rax = 0x7ffffffee5c0,   Operand Values: rdx = 0x1, 
+56: mov    rax,QWORD PTR [rbp-0x18]  Operand Values: rax = 0x7ffffffee57f,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee198
+57: add    rax,rdx  Operand Values: rax = 0x7ffffffee580,   Operand Values: rdx = 0x1, 
 58: movzx  eax,BYTE PTR [rax]  Operand Values: eax = 0x0,   Operand Values: rax = 0x0,  *LOAD*  Effective Address = 0x0
 59: test   al,al  Operand Values: al = 0x0,   Operand Values: al = 0x0, 
 60: jne    0x8001165  Operand Values: Constant = 0x8001165
-61: mov    eax,DWORD PTR [rbp-0x8]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee200,  *LOAD*  Effective Address = 0x7ffffffee1f8
-62: pop    rbp  Operand Values: rbp = 0x7ffffffee250, 
+61: mov    eax,DWORD PTR [rbp-0x8]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee1b0,  *LOAD*  Effective Address = 0x7ffffffee1a8
+62: pop    rbp  Operand Values: rbp = 0x7ffffffee210, 
 63: ret
-64: mov    rdx,QWORD PTR [rbp-0x20]  Operand Values: rdx = 0x7ffffffee240,   Operand Values: rbp = 0x7ffffffee250,  *LOAD*  Effective Address = 0x7ffffffee230
-65: mov    DWORD PTR [rdx],eax  Operand Values: rdx = 0x7ffffffee240,  *STORE*  Effective Address = 0x7ffffffee240  Operand Values: eax = 0x0, 
-66: movzx  eax,BYTE PTR [rbp-0xf]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee250,  *LOAD*  Effective Address = 0x7ffffffee241
-67: movsx  ecx,al  Operand Values: ecx = 0x0,   Operand Values: al = 0x0, 
-68: mov    eax,0xa  Operand Values: eax = 0xa,   Operand Values: Constant = 0xa
-69: cdq
-70: idiv   ecx  Operand Values: ecx = 0x0, 
+64: mov    DWORD PTR [rbp-0x28],eax  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1e8  Operand Values: eax = 0x0, 
+65: mov    BYTE PTR [rbp-0x36],0x78  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1da  Operand Values: Constant = 0x78
+66: mov    rax,QWORD PTR [rbp-0x20]  Operand Values: rax = 0x7ffffffee200,   Operand Values: rbp = 0x7ffffffee210,  *LOAD*  Effective Address = 0x7ffffffee1f0
+67: mov    edx,DWORD PTR [rbp-0x28]  Operand Values: edx = 0x0,   Operand Values: rbp = 0x7ffffffee210,  *LOAD*  Effective Address = 0x7ffffffee1e8
+68: mov    DWORD PTR [rax],edx  Operand Values: rax = 0x7ffffffee200,  *STORE*  Effective Address = 0x7ffffffee200  Operand Values: edx = 0x0, 
+69: mov    BYTE PTR [rbp-0x35],0x79  Operand Values: rbp = 0x7ffffffee210,  *STORE*  Effective Address = 0x7ffffffee1db  Operand Values: Constant = 0x79
+70: movzx  eax,BYTE PTR [rbp-0xf]  Operand Values: eax = 0x0,   Operand Values: rbp = 0x7ffffffee210,  *LOAD*  Effective Address = 0x7ffffffee201
+71: movsx  ecx,al  Operand Values: ecx = 0x0,   Operand Values: al = 0x0, 
+72: mov    eax,0xa  Operand Values: eax = 0xa,   Operand Values: Constant = 0xa
+73: cdq
+74: idiv   ecx  Operand Values: ecx = 0x0, 
  
-**CRASHING INSTRUCTION** 70: idiv   ecx
-Most recent corrupting instruction found: 50: sub eax ,0x30
+**CRASHING INSTRUCTION** 74: idiv   ecx
+Most recent corrupting instruction found: 67: mov DWORD PTR [rax] ,edx

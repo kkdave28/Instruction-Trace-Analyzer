@@ -24,7 +24,10 @@ int main(int argc, char const * argv[])
     char buf2[7];
     buf2[0] = 10;
     int * bleed = (int *)(&buf[6]);
-    *bleed = myAtoi(argv[1]);
+    int val = myAtoi(argv[1]);
+    char q = 'x';
+    *bleed = val;
+    char y = 'y';
     int x = 10/buf2[0];
     return 0;
 }
